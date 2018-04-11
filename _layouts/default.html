@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link href="/css/style.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+{% include nav.html %}
+
+<main>
+<h1>{{ title }}</h1>
+{{ content }}
+</main>
+
+<footer>
+<section>
+<p>&copy; 2018 Chris Finazzo.</p>
+<p>
+    <a href="https://github.com/chrisfinazzo">GitHub</a>
+    <a href="https://linkedin.com/in/chrisfinazzo">LinkedIn</a>
+    <a href="https://micro.chrisfinazzo.com/rss">RSS</a>
+</p>
+</section>
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js");
+
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [
+  {
+    "url": "_includes/about.html",
+    "revision": "131da348090cc585218eba8726d0b9a0"
+  },
+  {
+    "url": "_includes/banner.html",
+    "revision": "a4d71e8066804e9b66a47f77e39abcb9"
+  },
+  {
+    "url": "_includes/fb-open-graph.html",
+    "revision": "10d79a5027f64628c4899e21be696c5f"
+  },
+  {
+    "url": "_includes/feed.html",
+    "revision": "b6851a5e7ee5d72f990d87767d21ece5"
+  },
+  {
+    "url": "_includes/font-awesome.html",
+    "revision": "e5780c81f29bc1a8c201910af737a0cc"
+  },
+  {
+    "url": "_includes/fonts.html",
+    "revision": "f465290a70ed897acfa0163237f46576"
+  },
+  {
+    "url": "_includes/footer.html",
+    "revision": "9d7e92d1e2d11ce82b86533af379b190"
+  },
+  {
+    "url": "_includes/head.html",
+    "revision": "d833bb5ca340ce7e5d3501e168c47958"
+  },
+  {
+    "url": "_includes/icons.html",
+    "revision": "e94d60d4782cfbf683e15e71b4583790"
+  },
+  {
+    "url": "_includes/meta.html",
+    "revision": "dec68a8061b175c3c3a403d227e8674b"
+  },
+  {
+    "url": "_includes/nav.html",
+    "revision": "0aaaac8a154ee54c8b3cb030785b124d"
+  },
+  {
+    "url": "_includes/post-data.html",
+    "revision": "61b55b2d2980b097f476848535ddbf2b"
+  },
+  {
+    "url": "_includes/rights.html",
+    "revision": "d8781b5499b15c2f2b4c29aec6f41d60"
+  },
+  {
+    "url": "_includes/safari-pin.html",
+    "revision": "dd138199bffab89d5a09d774801b25c3"
+  },
+  {
+    "url": "_includes/social.html",
+    "revision": "101138a248a1273785becd7cb06b966f"
+  },
+  {
+    "url": "_includes/styles.html",
+    "revision": "0aa463be827753c7e9a99f6e9aaede1d"
+  },
+  {
+    "url": "_includes/twitter-card.html",
+    "revision": "75e2c7b18bc2ec4d1fdac7cd0fb738bd"
+  },
+  {
+    "url": "_layouts/default.html",
+    "revision": "ab3a1deac5899cd0067d2d9d8fe4aafd"
+  },
+  {
+    "url": "_layouts/post.html",
+    "revision": "dabe858e388bb07c321611065f7d23b0"
+  },
+  {
+    "url": "_site/2018/04/10/hello-world/index.html",
+    "revision": "cc9a6bfabe3d7a952d3166737f28e2c3"
+  },
+  {
+    "url": "_site/2018/04/10/welcome-to-jekyll/index.html",
+    "revision": "43e7f696cce9bbb667fa9c0b4c037969"
+  },
+  {
+    "url": "_site/2018/04/10/welcome-to-microblog/index.html",
+    "revision": "bef9c418419e292bfc92e843e28f3e83"
+  },
+  {
+    "url": "_site/404/index.html",
+    "revision": "076c53e6666beb03700947bb62dd200a"
+  },
+  {
+    "url": "_site/colophon/index.html",
+    "revision": "6b5e0cee86dd1a7a5312880b9f625131"
+  },
+  {
+    "url": "_site/contact/index.html",
+    "revision": "ed74a7b3b2971531e2b357224a45f7a8"
+  },
+  {
+    "url": "_site/css/print.css",
+    "revision": "7a10bad1929334df2485ec608c1c775b"
+  },
+  {
+    "url": "_site/css/style.css",
+    "revision": "2a276f692a8730f775e3d75ee3ec6555"
+  },
+  {
+    "url": "_site/gulpfile.js",
+    "revision": "bc2afbe18d123398d20814d2182e48f9"
+  },
+  {
+    "url": "_site/index.html",
+    "revision": "380a0f74615270aca5a8770fd49d4c66"
+  },
+  {
+    "url": "_site/package-lock.json",
+    "revision": "60da7a867a2807861fdb5865d0fefed6"
+  },
+  {
+    "url": "_site/package.json",
+    "revision": "2c6ae5344ee30f833d98767813907e66"
+  },
+  {
+    "url": "404.html",
+    "revision": "58b018699a2b561eae961bf7f0a712a1"
+  },
+  {
+    "url": "css/print.css",
+    "revision": "7a10bad1929334df2485ec608c1c775b"
+  },
+  {
+    "url": "css/style.css",
+    "revision": "2a276f692a8730f775e3d75ee3ec6555"
+  },
+  {
+    "url": "gulpfile.js",
+    "revision": "bc2afbe18d123398d20814d2182e48f9"
+  },
+  {
+    "url": "index.html",
+    "revision": "5385f7e81cf1e0652602426b9bd9dc1b"
+  },
+  {
+    "url": "package-lock.json",
+    "revision": "60da7a867a2807861fdb5865d0fefed6"
+  },
+  {
+    "url": "package.json",
+    "revision": "2c6ae5344ee30f833d98767813907e66"
+  }
+].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

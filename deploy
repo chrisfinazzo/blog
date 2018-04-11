@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e # Stop the script if there's an error
+
+bundle exec jekyll doctor && time bundle exec jekyll build --incremental && git push origin master && rsync -crz --delete _site/ cfinazzo1@chrisfinazzo.com:/home/cfinazzo1/micro.chrisfinazzo.com

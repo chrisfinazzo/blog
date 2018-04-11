@@ -1,0 +1,24 @@
+{
+  "name": "microblog",
+  "version": "1.0.0",
+  "description": "Microblog posts, powered by Jekyll",
+  "keywords": [
+    "jekyll",
+    "microblog"
+  ],
+  "homepage": "https://micro.chrisfinazzo.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisfinazzo/microblog.git"
+  },
+  "author": {
+    "name": "Chris Finazzo",
+    "url": "https://chrisfinazzo.github.io/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.5",
+    "workbox-build": "^3.0.0"
+  }
+}

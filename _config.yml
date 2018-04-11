@@ -1,0 +1,56 @@
+title: Chris Finazzo
+email: chris@chrisfinazzo.com
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+include:     []
+exclude:     []
+keep_files:  ['.git','.svn']
+timezone:    America/New_York
+encoding:    utf-8
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+future:      false
+show_drafts: false
+limit_posts: 0
+highlighter: rouge
+
+permalink:   /:year/:month/:day/:title/
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+markdown:      kramdown
+markdown_ext:  markdown,md
+
+excerpt_separator: ""
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     ""
+url:         https://micro.chrisfinazzo.com
+lsi:         false
+  
+sass:
+    sass_dir: _sass
+    line_comments: false
+    style: :compressed
+
+twitter:
+    username: chrisfinazzo
+    url: https://twitter.com/chrisfinazzo
+github:
+    username: chrisfinazzo
+    url: https://github.com/chrisfinazzo
+linkedin:
+    username: chrisfinazzo
+    url: https://linkedin.com/in/chrisfinazzo

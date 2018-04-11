@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link href="/css/style.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+{% include nav.html %}
+
+<main>
+<article>
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p class="meta">{{ page.date | date: '%B %-d, %Y' }}</p>
+{{ content }}
+</article>
+</main>
+
+<footer>
+<section>
+<p>&copy; 2018 Chris Finazzo.</p>
+<p>
+    <a href="https://github.com/chrisfinazzo">GitHub</a>
+    <a href="https://linkedin.com/in/chrisfinazzo">LinkedIn</a>
+    <a href="https://micro.chrisfinazzo.com/rss">RSS</a>
+</p>
+</section>
+</footer>
+
+</body>
+</html>
