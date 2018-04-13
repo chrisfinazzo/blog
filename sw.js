@@ -96,16 +96,12 @@ self.__precacheManifest = [
     "revision": "dabe858e388bb07c321611065f7d23b0"
   },
   {
-    "url": "_site/2018/04/10/hello-world/index.html",
-    "revision": "cc9a6bfabe3d7a952d3166737f28e2c3"
+    "url": "_site/2018/04/11/minimum-viable-writing-product/index.html",
+    "revision": "1f69787fffc4547df5a154c44860e781"
   },
   {
-    "url": "_site/2018/04/10/welcome-to-jekyll/index.html",
-    "revision": "43e7f696cce9bbb667fa9c0b4c037969"
-  },
-  {
-    "url": "_site/2018/04/10/welcome-to-microblog/index.html",
-    "revision": "bef9c418419e292bfc92e843e28f3e83"
+    "url": "_site/2018/04/13/adventures-in-rsync/index.html",
+    "revision": "09ee7f6863d86a1098f3312219c4ab4e"
   },
   {
     "url": "_site/404/index.html",
@@ -125,7 +121,7 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/css/style.css",
-    "revision": "2a276f692a8730f775e3d75ee3ec6555"
+    "revision": "9457df4ee4b7e41abcdd2cab6beadd16"
   },
   {
     "url": "_site/gulpfile.js",
@@ -133,7 +129,7 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/index.html",
-    "revision": "380a0f74615270aca5a8770fd49d4c66"
+    "revision": "68401e609e960ea84adef4be019e1dae"
   },
   {
     "url": "_site/package-lock.json",
@@ -153,7 +149,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/style.css",
-    "revision": "2a276f692a8730f775e3d75ee3ec6555"
+    "revision": "9457df4ee4b7e41abcdd2cab6beadd16"
   },
   {
     "url": "gulpfile.js",
@@ -161,7 +157,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5385f7e81cf1e0652602426b9bd9dc1b"
+    "revision": "479cb53d8124869ecc0c74e2b4943d48"
   },
   {
     "url": "package-lock.json",
