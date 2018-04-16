@@ -104,6 +104,10 @@ self.__precacheManifest = [
     "revision": "09ee7f6863d86a1098f3312219c4ab4e"
   },
   {
+    "url": "_site/2018/04/16/drunk-with-power/index.html",
+    "revision": "7490c0830f2105b3ef11fd6385023d9a"
+  },
+  {
     "url": "_site/404/index.html",
     "revision": "076c53e6666beb03700947bb62dd200a"
   },
@@ -129,7 +133,7 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/index.html",
-    "revision": "68401e609e960ea84adef4be019e1dae"
+    "revision": "cc444499d50663825b992e40201e740c"
   },
   {
     "url": "_site/package-lock.json",
