@@ -108,6 +108,10 @@ self.__precacheManifest = [
     "revision": "7490c0830f2105b3ef11fd6385023d9a"
   },
   {
+    "url": "_site/2018/04/20/a-desk-and-chair/index.html",
+    "revision": "3ebd0f9fd39b5606fc5ba3bc69057b5b"
+  },
+  {
     "url": "_site/404/index.html",
     "revision": "076c53e6666beb03700947bb62dd200a"
   },
@@ -133,7 +137,7 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/index.html",
-    "revision": "cc444499d50663825b992e40201e740c"
+    "revision": "a7c89d333ca0fe2cc27da566452c500b"
   },
   {
     "url": "_site/package-lock.json",
