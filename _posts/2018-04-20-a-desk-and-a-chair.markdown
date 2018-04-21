@@ -16,7 +16,7 @@ Other than that, just about everything else is negotiable. The Wirecutter&#8217;
 
 [Jarvis Bamboo]: https://www.fully.com/standing-desks/jarvis/jarvis-adjustable-height-desk-bamboo.html
 
-The chair part of the equation is easier (mostly because of cost). Arms, along with reasonable back support, and that&#8217;s really all that I think I need. The [HON Exposure][] (another Wirecutter selection - for no particular reason, that&#8217;s just where I started my search) would probably do the job, but I wonder about its durability if I&#8217;m sitting in it for long stretches of time. Although anything would likely be an improvement over the tiny cushion that on my current chair. I don&#8217;t know the exact price, but I do know it was cheap.
+The chair part of the equation is easier (mostly because of cost). Arms, along with reasonable back support, and that&#8217;s really all that I think I need. The [HON Exposure][] (another Wirecutter selection - for no particular reason, that&#8217;s just where I started my search) would probably do the job, but I wonder about its durability if I&#8217;m sitting in it for long stretches of time. Although anything would likely be an improvement over the tiny cushion that is on my current chair. I don&#8217;t know the exact price, but I do know it was cheap.
 
 [HON Exposure]: https://www.amazon.com/dp/B00HFT9KI2
 
