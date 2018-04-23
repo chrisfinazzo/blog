@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e # Stop the script if there's an error
+
+bundle exec jekyll doctor && time bundle exec jekyll build --incremental
