@@ -1,0 +1,11 @@
+---
+layout: post
+title: Invalid
+---
+Note to self: Having invalid markup in a Liquid template makes HTTP caches go crazy. Also, service workers are still weird (and awesome).
+
+Counting down the hours until [@adactio&#8217;s][] [book][] comes out tomorrow.
+
+[@adactio&#8217;s]: https://twitter.com/adactio
+
+[book]: https://abookapart.com/products/going-offline

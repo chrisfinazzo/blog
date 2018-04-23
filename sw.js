@@ -96,6 +96,26 @@ self.__precacheManifest = [
     "revision": "dabe858e388bb07c321611065f7d23b0"
   },
   {
+    "url": "_posts/_site/2018-04-11-minimum-viable-writing-product.html",
+    "revision": "e28281a9cc30ef61db5e9f0a72d80e99"
+  },
+  {
+    "url": "_posts/_site/2018-04-13-adventures-in-rsync.html",
+    "revision": "b03100f3d32b1b33e4d53c2dd5ea2432"
+  },
+  {
+    "url": "_posts/_site/2018-04-16-drunk-with-power.html",
+    "revision": "6eb612300a7ff701900cf3d096263319"
+  },
+  {
+    "url": "_posts/_site/2018-04-20-a-desk-and-a-chair.html",
+    "revision": "960fdcee8d2dea77f91f7d2fb621fb1d"
+  },
+  {
+    "url": "_posts/_site/2018-04-23-invalid.html",
+    "revision": "ba5a6637a782013a80fcd52091df1ecb"
+  },
+  {
     "url": "_site/2018/04/11/minimum-viable-writing-product/index.html",
     "revision": "1f69787fffc4547df5a154c44860e781"
   },
@@ -109,7 +129,11 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/2018/04/20/a-desk-and-a-chair/index.html",
-    "revision": "2c358a1889017c36ce969b5d014c762e"
+    "revision": "3b9a22410bebea6e1b9520901c8cdfcc"
+  },
+  {
+    "url": "_site/2018/04/23/invalid/index.html",
+    "revision": "0c8211dc5f2c0a6e02cf0da58451e195"
   },
   {
     "url": "_site/404/index.html",
@@ -137,7 +161,7 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/index.html",
-    "revision": "d8e4e49b5afc8627a6322be783b248ff"
+    "revision": "eb16d6a54d624299b256513959a1a82d"
   },
   {
     "url": "_site/package-lock.json",
@@ -165,7 +189,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "479cb53d8124869ecc0c74e2b4943d48"
+    "revision": "b8fd2cea27c9c83a9ac4b9118383c23c"
   },
   {
     "url": "package-lock.json",
