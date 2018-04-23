@@ -96,26 +96,6 @@ self.__precacheManifest = [
     "revision": "dabe858e388bb07c321611065f7d23b0"
   },
   {
-    "url": "_posts/_site/2018-04-11-minimum-viable-writing-product.html",
-    "revision": "e28281a9cc30ef61db5e9f0a72d80e99"
-  },
-  {
-    "url": "_posts/_site/2018-04-13-adventures-in-rsync.html",
-    "revision": "b03100f3d32b1b33e4d53c2dd5ea2432"
-  },
-  {
-    "url": "_posts/_site/2018-04-16-drunk-with-power.html",
-    "revision": "6eb612300a7ff701900cf3d096263319"
-  },
-  {
-    "url": "_posts/_site/2018-04-20-a-desk-and-a-chair.html",
-    "revision": "960fdcee8d2dea77f91f7d2fb621fb1d"
-  },
-  {
-    "url": "_posts/_site/2018-04-23-invalid.html",
-    "revision": "ba5a6637a782013a80fcd52091df1ecb"
-  },
-  {
     "url": "_site/2018/04/11/minimum-viable-writing-product/index.html",
     "revision": "1f69787fffc4547df5a154c44860e781"
   },
