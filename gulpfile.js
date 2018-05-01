@@ -1,16 +1,8 @@
-const gulp = require('gulp');
-const workboxBuild = require('workbox-build');
+const gulp = require("gulp");
+const shell = require("gulp-shell");
 
-gulp.task('service-worker', () => {
-  return workboxBuild.generateSW({
-    globDirectory: './',
-    globPatterns: [
-      '**\/*.{html,json,js,css,jpeg}',
-    ],
-    swDest: './sw.js',
-  });
-});
+gulp.task("build", shell.task("bundle exec jekyll doctor && time bundle exec jekyll build --incremental"));
 
-const shell = require('gulp-shell')
+gulp.task("serve", shell.task("bundle exec jekyll doctor && time bundle exec jekyll serve --incremental"));
 
-gulp.task('style', shell.task('sass --sourcemap=none --watch scss:css'))
+gulp.task("deploy", shell.task("git push origin master && rsync -crz --exclude-from='rsync-exclude.txt' --delete _site/ cfinazzo1@micro.chrisfinazzo.com:/home/cfinazzo1/micro.chrisfinazzo.com"));
