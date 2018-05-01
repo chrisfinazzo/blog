@@ -116,6 +116,10 @@ self.__precacheManifest = [
     "revision": "0c8211dc5f2c0a6e02cf0da58451e195"
   },
   {
+    "url": "_site/2018/04/28/security-by-deletion/index.html",
+    "revision": "37f67e910a85f77e650c6761c9434463"
+  },
+  {
     "url": "_site/404/index.html",
     "revision": "076c53e6666beb03700947bb62dd200a"
   },
@@ -141,7 +145,11 @@ self.__precacheManifest = [
   },
   {
     "url": "_site/index.html",
-    "revision": "eb16d6a54d624299b256513959a1a82d"
+    "revision": "d3eb68129a36d22fee309e979650c490"
+  },
+  {
+    "url": "_site/marcotte.js",
+    "revision": "5b90829d5bef1abc8c22c35dbfdfa123"
   },
   {
     "url": "_site/package-lock.json",
@@ -170,6 +178,10 @@ self.__precacheManifest = [
   {
     "url": "index.html",
     "revision": "b8fd2cea27c9c83a9ac4b9118383c23c"
+  },
+  {
+    "url": "marcotte.js",
+    "revision": "5b90829d5bef1abc8c22c35dbfdfa123"
   },
   {
     "url": "package-lock.json",
