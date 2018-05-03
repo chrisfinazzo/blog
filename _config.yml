@@ -18,6 +18,8 @@ future:      false
 show_drafts: false
 limit_posts: 0
 highlighter: rouge
+feed:
+  path: rss.xml
 
 permalink:   /:year/:month/:day/:title/
 
