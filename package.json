@@ -1,19 +1,20 @@
 {
-  "name": "microblog",
+  "name": "Blog",
   "version": "1.0.0",
-  "description": "Microblog posts, powered by Jekyll",
+  "description": "My personal website, powered by Jekyll",
   "keywords": [
+    "blog",
     "jekyll",
-    "microblog"
+    "personal website"
   ],
-  "homepage": "https://micro.chrisfinazzo.com",
+  "homepage": "https://chrisfinazzo.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisfinazzo/microblog.git"
+    "url": "https://github.com/chrisfinazzo/chrisfinazzo.git"
   },
   "author": {
     "name": "Chris Finazzo",
-    "url": "https://chrisfinazzo.github.io/"
+    "url": "https://chrisfinazzo.com/"
   },
   "license": "MIT",
   "devDependencies": {

@@ -1,3 +1,3 @@
-## Microblog
+## chrisfinazzo.com
 
-Microblog posts, Powered by Jekyll
+My personal website, Powered by Jekyll

@@ -12,6 +12,7 @@ encoding:    utf-8
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jemoji
 
 future:      false
@@ -31,6 +32,10 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+collections:
+ links:
+   output: true
+
 markdown:      kramdown
 markdown_ext:  markdown,md
 
@@ -40,13 +45,8 @@ safe:        false
 host:        0.0.0.0
 port:        4000
 baseurl:     ""
-url:         https://micro.chrisfinazzo.com
+url:         https://chrisfinazzo.com
 lsi:         false
-  
-sass:
-    sass_dir: _sass
-    line_comments: false
-    style: :compressed
 
 twitter:
     username: chrisfinazzo
