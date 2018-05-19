@@ -1,0 +1,10 @@
+---
+layout: link
+title: "Links"
+---
+
+<h2>In my travels, I've collected some links</h2>
+
+{% for link in site.links %}
+<p><a href="{{ link.url }}">{{ link.title }}</a></p>
+{% endfor %}
