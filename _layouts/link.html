@@ -1,8 +1,32 @@
----
-layout: default
-title: Links
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link href="/css/style.css" rel="stylesheet">
+	<title>{{ page.title }}</title>
+</head>
+<body>
 
+{% include nav.html %}
+
+<main>
+<article>
 <h2><a href="{{ link.url }}">{{ link.title }}</a></h2>
 
 {{ content }}
+</article>
+</main>
+
+<footer>
+<section>
+<p>&copy; 2018 Chris Finazzo.</p>
+<p>
+    <a href="https://github.com/chrisfinazzo">GitHub</a>
+    <a href="https://linkedin.com/in/chrisfinazzo">LinkedIn</a>
+    <a href="https://micro.chrisfinazzo.com/rss.xml">RSS</a>
+</p>
+</section>
+</footer>
+
+</body>
+</html>
