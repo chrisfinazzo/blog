@@ -5,11 +5,7 @@ title: "Colophon"
 
 #### Who are you, and what do you do?
 
-I'm Chris Finazzo. A communications guy by day and web technology nerd by night (and weekends). I go by **@chrisfinazzo** in the [usual][] [places][] online.
-
-[usual]: https://github.com/chrisfinazzo/
-
-[places]: https://twitter.com/chrisfinazzo
+I'm Chris Finazzo. A communications guy by day and web technology nerd by night (and weekends). I go by **@chrisfinazzo** in the [usual]({{ site.github.url }}) [places]({{ site.twitter.url }}) online.
 
 #### What hardware do you use?
 

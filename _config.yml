@@ -48,12 +48,9 @@ baseurl:     ""
 url:         https://chrisfinazzo.com
 lsi:         false
 
-twitter:
-    username: chrisfinazzo
-    url: https://twitter.com/chrisfinazzo
 github:
-    username: chrisfinazzo
     url: https://github.com/chrisfinazzo
 linkedin:
-    username: chrisfinazzo
     url: https://linkedin.com/in/chrisfinazzo
+twitter:
+    url: https://twitter.com/chrisfinazzo
