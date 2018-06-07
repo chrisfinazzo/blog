@@ -1,3 +1,3 @@
 ## chrisfinazzo.com
 
-My personal website, Powered by Jekyll
+My personal website, powered by Jekyll
