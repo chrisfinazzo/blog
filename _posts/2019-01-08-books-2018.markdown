@@ -1,0 +1,96 @@
+---
+layout: post
+title: Audible, Goodreads, and a Very Long List
+---
+
+Because all [the][] [cool][] [kids][] are doing it, I&#8217;ve compiled a list of all the books I&#8217;ve read in the past year. You might think, &#8216;Who reads anymore&#8217;, or &#8216;Who has the time?&#8217; Surprisingly, this was easier than I thought and only required 3 things&#58;
+
+[the]: https://twitter.com/imcatnoone/status/1080169804277911552
+
+[cool]: https://twitter.com/blehnert/status/1079452628797530113
+
+[kids]: https://twitter.com/agisilaosts/status/1079465437929320448
+
+### An Audible subscription
+
+Audiobooks have come a long way from the books on tape I remember listening to growing up. Long books felt shorter, and because there were no visuals involved, I found it easier to retain information, especially when it came to more complicated topics. Still, this approach is not without its drawbacks; The basic account only gives you 1 credit per month, and I&#8217;ve never really been tempted by the Audible Originals. However, the selection is really good and since [they&#8217;re][] an Amazon company, the service is always up.
+
+[they&#8217;re]: https://www.audible.com
+
+Well worth the $15.
+
+### A Goodreads account
+
+I have a note in iCloud (and a Reminders list) to keep track of things, but for now, the canonical record is located [here][]. The website may be kind of ugly, but it does a decent job keeping track of what I&#8217;ve read and what my next pick should be. 
+
+[here]: https://www.goodreads.com/user/show/16467089-chris-finazzo
+
+### Time to listen
+
+This is a big one &mdash; having a walkable commute in addition to a working environment where I can listen while doing other things has been a great aid to this process.
+
+With that said, here&#8217;s what I read in 2018.
+
+1.	_[Young Money&#58; Inside the Hidden World of Wall Street&#8217;s Post-Crash Recruits][ym]_ by Kevin Roose
+
+2.	_[The Big Short&#58; Inside the Doomsday Machine][bs]_ by Michael Lewis
+
+3.	_[The New CSS Layout][css]_ by Rachel Andrew
+
+4.	_[Going Offline][go]_ by Jeremy Keith
+
+5.	_[Too Big to Fail&#58; The Inside Story of How Wall Street and Washington Fought to Save the Financial System from Crisis &ndash; and Themselves][tbtf]_ by Andrew Ross Sorkin
+
+6.	_[Accessibility for Everyone][ae]_ by Laura Kalbag
+
+7.	_[Flash Boys&#58; A Wall Street Revolt][fb]_ by Michael Lewis
+
+8.	_[Becoming Steve Jobs&#58; The Evolution of a Reckless Upstart into a Visionary Leader][sj-1]_ by Brent Schlender and Rick Tetzeli
+
+9.	_[A Colossal Failure of Common Sense&#58; The Inside Story of the Collapse of Lehman Brothers][cfcs]_ by Lawrence G. McDonald
+
+10.	_[Straight to Hell&#58; True Tales of Deviance, Debauchery, and Billion-Dollar Deals][hell]_ by John LeFevre
+
+11.	_[The Accidental Billionaires&#58; The Founding of Facebook&#58; A Tale of Sex, Money, Genius, and Betrayal][ab]_ by Ben Mezrich
+
+12.	_[Steve Jobs][sj-2]_ by Walter Isaacson
+
+13.	_[Into Thin Air&#58; A Personal Account of the Mount Everest Disaster][ita]_ by John Krakauer
+
+14.	_[What Happened][wh]_ by Hillary Clinton
+
+15.	_[The Fifth Risk][fr]_ by Michael Lewis
+
+16.	_[The Coming Storm][cs]_ by Michael Lewis
+
+[ym]: https://www.amazon.com/Young-Money-Streets-Post-Crash-Recruits/dp/044658326X
+
+[bs]: https://www.amazon.com/Big-Short-Inside-Doomsday-Machine/dp/0393072231
+
+[css]: https://abookapart.com/products/the-new-css-layout
+
+[go]: https://abookapart.com/products/going-offline
+
+[tbtf]: https://www.amazon.com/Too-Big-Fail-Washington-System/dp/0670021253
+
+[ae]: https://abookapart.com/products/accessibility-for-everyone
+
+[fb]: https://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393351599
+
+[sj-1]: https://www.amazon.com/Becoming-Steve-Jobs-Evolution-Visionary/dp/0385347421
+
+[cfcs]: https://www.amazon.com/Colossal-Failure-Common-Sense-Collapse/dp/0307588335
+
+[hell]: https://www.amazon.com/Straight-Hell-Deviance-Debauchery-Billion-Dollar/dp/0802123309
+
+[ab]: https://www.amazon.com/Accidental-Billionaires-Founding-Facebook-Betrayal/dp/0307740986
+
+[sj-2]: https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/
+
+[ita]: https://www.amazon.com/Into-Thin-Air-Personal-Disaster/dp/0385494785
+
+[wh]: https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564
+
+[fr]: https://www.amazon.com/The-Fifth-Risk/dp/B07GNTDQJQ
+
+[cs]: https://www.amazon.com/The-Coming-Storm/dp/B07FHLQ2DD
