@@ -4,6 +4,7 @@ to = "/chrisfinazzo.com"
 status = 301
 force = false
 
-/www.chrisfinazzo.com /chrisfinazzo.com
-
-https://relaxed-meninsky-6eca95.netlify.com/* https://chrisfinazzo.com/:splat 301!
+from = "https://relaxed-meninsky-6eca95.netlify.com/*"
+to = "https://chrisfinazzo.com/"
+status = 301
+force = false
