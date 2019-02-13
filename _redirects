@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/www.chrisfinazzo.com"
+to = "/chrisfinazzo.com"
+status = 301
+force = false
+
+/www.chrisfinazzo.com /chrisfinazzo.com
+
+https://relaxed-meninsky-6eca95.netlify.com/* https://chrisfinazzo.com/:splat 301!
