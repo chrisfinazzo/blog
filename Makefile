@@ -1,16 +1,10 @@
-.PHONY: doctor build serve deploy
+.PHONY: doctor build serve
 
-  doctor:
-		bundle exec jekyll doctor
+doctor:
+	bundle exec jekyll doctor
 
-  build: doctor
-		bundle exec jekyll build --incremental
+build: doctor
+	bundle exec jekyll build --incremental
 
-  serve: doctor
-		bundle exec jekyll serve --incremental
-
-  deploy:
-		git push origin master
-		rsync -crz \
-     --exclude-from='rsync-exclude.txt' \
-     --delete _site/ cfinazzo1@chrisfinazzo.com:/home/cfinazzo1/chrisfinazzo.com
+serve: doctor
+	bundle exec jekyll serve --incremental
