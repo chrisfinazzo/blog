@@ -1,4 +1,4 @@
-.PHONY: doctor build serve
+.PHONY: doctor build serve styles
 
 doctor:
 	bundle exec jekyll doctor
@@ -8,3 +8,6 @@ build: doctor
 
 serve: doctor
 	bundle exec jekyll serve --incremental
+
+styles:
+	sass --sourcemap=none --watch scss:css
