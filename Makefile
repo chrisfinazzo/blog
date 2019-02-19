@@ -11,3 +11,6 @@ serve: doctor
 
 styles:
 	sass --sourcemap=none --watch scss:css
+
+deploy:
+	netlify deploy --prod -d _site
