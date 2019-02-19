@@ -1,4 +1,4 @@
-.PHONY: doctor build serve styles
+.PHONY: doctor build serve styles deploy
 
 doctor:
 	bundle exec jekyll doctor
