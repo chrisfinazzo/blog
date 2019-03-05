@@ -4,7 +4,7 @@ source:      .
 destination: ./_site
 plugins_dir: ./_plugins
 layouts_dir: ./_layouts
-include:     []
+include:     [_headers]
 exclude:     []
 keep_files:  ['.git','.svn']
 timezone:    America/New_York
