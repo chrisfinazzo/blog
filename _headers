@@ -1,7 +1,6 @@
-[[headers]]
-for = "/*"
-[headers.values]
-Content-Security-Policy = "default-src https: frame-ancestors 'none'"
-X-Content-Type-Options = "nosniff"
-X-Frame-Options = "DENY"
-X-XSS-Protection = "1; mode=block"
+/*
+
+Content-Security-Policy: style-src 'self'; default-src 'none'; object-src 'none'; worker-src 'self'; frame-ancestors 'none';
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
