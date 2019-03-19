@@ -3,10 +3,7 @@ layout: default
 title: "Contact Me"
 ---
 If you are looking for a passionate, committed addition to your team, you've come to the right place. If you have a specific project in mind, please tell me about it. I look forward to working with you.
-<form action="/thank-you" name="contact" method="POST" netlify-honeypot="spambots" data-netlify="true">
-  <p style="visibility: hidden">
-    <label>Don&rsquo;t fill this out if you're human: <input name="spambots" /></label>
-  </p>
+<form action="/thank-you" name="contact" method="POST" data-netlify="true">
 <label for="fname">First Name</label>
     <br />
     <input type="text" id="fname" name="firstname" placeholder="John">
