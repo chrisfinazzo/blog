@@ -5,4 +5,4 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
 Upgrade-Insecure-Requests: 1
-
+Cache-Control: no-transform
