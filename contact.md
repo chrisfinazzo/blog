@@ -24,8 +24,5 @@ If you are looking for a passionate, committed addition to your team, you've com
     <textarea id="message" name="message" placeholder=""></textarea>
     <br />
     <br />
-    <p style="visibility: hidden">
-    <label>Don&rsquo;t fill this out if you're human: <input type="checkbox" name="spambots" /></label>
-    </p>
     <input type="submit" name="submit" value="Submit" style="">
 </form>
