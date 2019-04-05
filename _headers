@@ -1,6 +1,6 @@
 /*
 
-Content-Security-Policy: style-src 'self'; default-src 'self'; object-src 'none'; img-src https:; script-src 'self' 'unsafe-inline'; frame-ancestors 'none';
+Content-Security-Policy-Report-Only: style-src 'self'; default-src 'self'; object-src 'none'; img-src https:; script-src 'self'; worker-src 'self'; frame-ancestors 'none'; report-uri https://chrisfinazzo.report-uri.io
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
