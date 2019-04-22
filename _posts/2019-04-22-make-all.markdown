@@ -1,0 +1,17 @@
+---
+layout: post
+title: Make All
+---
+With the exception of my &#8220;draft&#8221; script, I&#8217;ve moved all my shell scripts for this site into a Makefile. Originally, I used [gulp-shell][], but was quickly reminded of the sheer number of packages you need to do even the simplest operations in Node. At that point, I decided to find an alternative solution.
+
+Enter Make.
+
+Although I hadn&#8217;t used it before, I found the process to be pretty smooth - aided by this Hacker News [comment][] where I asked a question about it. In simple terms, a Makefile typically contains a set of &#8220;rules&#8221; in a particular format and Bash commands can map to each of them. These rules perform actions on files or directories (a.k.a, their &#8220;targets&#8221;).
+
+Converting the &#8220;draft&#8221; script will take a bit longer, as it&#8217;s made up of multiple lines and has variables, redirection, and a sprinkling of AWK all thrown together. Most of the examples I&#8217;ve found are far simpler, which is helpful, but they are usually written with a language like C++ in mind. As a result, I&#8217;m kind of in the dark about how all of the pieces fit together.
+
+In short, it&#8217;s the one drawback of being something of an accidental programmer. I suspect there&#8217;s more to write on this particular topic, but that&#8217;s an exercise I&#8217;ll save for another day.
+
+[gulp-shell]: https://www.npmjs.com/package/gulp-shell
+[comment]: https://news.ycombinator.com/item?id=19086197
+
