@@ -1,10 +1,25 @@
-.PHONY: doctor build serve styles github deploy
+.PHONY: build deploy doctor draft github perf proof serve styles tags
+
+build: doctor
+	bundle exec jekyll build --incremental
+
+deploy:
+	netlify deploy --prod -d _site
 
 doctor:
 	bundle exec jekyll doctor
 
-build: doctor
-	bundle exec jekyll build --incremental
+draft:
+	./draft new.md
+
+github:
+	git push origin master
+
+perf:
+	siege -c 20 -t 30S -b chrisfinazzo.com
+
+proof: build
+	htmlproofer --assume-extension ./_site
 
 serve: doctor
 	bundle exec jekyll serve --incremental
@@ -12,8 +27,5 @@ serve: doctor
 styles:
 	sass --sourcemap=none --watch scss:css
 
-github:
-	git push origin master
-
-deploy:
-	netlify deploy --prod -d _site
+tags:
+	git push origin --tags
