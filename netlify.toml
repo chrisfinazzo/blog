@@ -7,11 +7,11 @@
         Referrer-Policy= "no-referrer-when-downgrade"
         Upgrade-Insecure-Requests = "1"
         Cache-Control = "no-transform"
-[[redirects]]
-from = "/www.chrisfinazzo.com"
-to = "/chrisfinazzo.com"
-status = 301
-force = false
+# [[redirects]]
+# from = "/www.chrisfinazzo.com"
+# to = "/chrisfinazzo.com"
+# status = 301
+# force = false
 [[redirects]]
 from = "https://relaxed-meninsky-6eca95.netlify.com/*"
 to = "https://chrisfinazzo.com/"
