@@ -9,12 +9,12 @@
         Cache-Control = "no-transform"
 
 [[redirects]]
-
 from = "/www.chrisfinazzo.com"
 to = "/chrisfinazzo.com"
 status = 301
 force = false
 
+[[redirects]]
 from = "https://relaxed-meninsky-6eca95.netlify.com/*"
 to = "https://chrisfinazzo.com/"
 status = 301
