@@ -1,0 +1,22 @@
+[[headers]]
+
+for = "/*"
+[headers.values]
+Cache-Control = "no-transform"
+Content-Security-Policy = "style-src 'self'; default-src 'self'; object-src 'none'; img-src https:; script-src 'self' 'unsafe-inline'; frame-ancestors 'none';"
+Upgrade-Insecure-Requests = "1"
+X-Content-Type-Options = "nosniff"
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+
+[[redirects]]
+
+from = "/www.chrisfinazzo.com"
+to = "/chrisfinazzo.com"
+status = 301
+force = false
+
+from = "https://relaxed-meninsky-6eca95.netlify.com/*"
+to = "https://chrisfinazzo.com/"
+status = 301
+force = false
