@@ -1,18 +1,12 @@
 [[headers]]
-  for = "/*
-  [headers.values]  
-    Cache-Control = "no-transform"
-    Content-Security-Policy = "style-src 'self';
-    default-src 'self';
-    object-src 'none';
-    img-src https:;
-    script-src 'self'
-    'unsafe-inline';
-    frame-ancestors 'none';"
-    Upgrade-Insecure-Requests = "1"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block""
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy= "no-referrer-when-downgrade"
+        Upgrade-Insecure-Requests = "1"
+        Cache-Control = "no-transform"
 
 [[redirects]]
 
