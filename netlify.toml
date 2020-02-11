@@ -1,13 +1,21 @@
-[[Site]]
+# WWW
+[[redirects]]
 from = "/www.chrisfinazzo.com"
 to = "/chrisfinazzo.com"
 status = 301
 force = false
-[[Netlify]]
+# Netlify
+[[redirects]]
 from = "https://relaxed-meninsky-6eca95.netlify.com/*"
 to = "https://chrisfinazzo.com/"
 status = 301
 force = false
+# 404
+[[redirects]]
+    from = "*"
+    to = "/404"
+    status = 404
+
 [[headers]]
   for = "/*"
 
@@ -25,3 +33,4 @@ force = false
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+
