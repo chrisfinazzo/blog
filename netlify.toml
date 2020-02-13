@@ -26,7 +26,6 @@ force = false
     default-src 'self';
     object-src 'none';
     img-src https:;
-    connect-src https://github.githubassets.com/;
     script-src 'self'
     'unsafe-inline';
     frame-ancestors 'none';'''
