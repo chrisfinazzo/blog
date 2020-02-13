@@ -26,8 +26,7 @@ force = false
     default-src 'self';
     object-src 'none';
     img-src https:;
-    script-src 'self'
-    'unsafe-inline';
+    script-src 'self';
     frame-ancestors 'none';'''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
