@@ -27,6 +27,7 @@ force = false
     object-src 'none';
     img-src https:;
     script-src 'self';
+    connect-src ''https://github.githubassets.com/*;
     frame-ancestors 'none';'''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
