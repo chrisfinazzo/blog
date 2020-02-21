@@ -37,10 +37,6 @@ task :proof do
     sh 'htmlproofer --assume-extension ./_site'
 end
 
-task :serve do
-    sh 'bundle exec jekyll serve --incremental'
-end
-
 task :styles do
     sh 'sass --sourcemap=none --watch scss:css'
 end
