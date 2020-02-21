@@ -8,4 +8,4 @@ My Service Worker ended up being a few lines shorter than I thought, but it's no
 
 Maybe, just maybe Javascript isn't so bad.
 
-[live]: https://micro.chrisfinazzo.com/sw.js
+[live]: https://chrisfinazzo.com/sw.js
