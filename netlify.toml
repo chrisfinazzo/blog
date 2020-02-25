@@ -29,7 +29,7 @@ force = false
     script-src 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';
     'unsafe-inline';
     frame-ancestors 'none';
-    report-uri https://chrisfinazzo.report-uri.com/'''
+    report-uri https://chrisfinazzo.com/csp-report.json '''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
