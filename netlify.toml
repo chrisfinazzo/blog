@@ -28,7 +28,8 @@ force = false
     img-src https:;
     script-src 'self'
     'unsafe-inline';
-    frame-ancestors 'none';'''
+    frame-ancestors 'none';
+    report-uri https://chrisfinazzo.report-uri.com/r/d/csp/reportOnly'''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
