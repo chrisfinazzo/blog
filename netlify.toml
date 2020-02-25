@@ -26,10 +26,10 @@ force = false
     default-src 'self';
     object-src 'none';
     img-src https:;
-    script-src 'self'
+    script-src 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';
     'unsafe-inline';
     frame-ancestors 'none';
-    report-uri https://chrisfinazzo.report-uri.com/r/d/csp/reportOnly'''
+    report-uri https://chrisfinazzo.report-uri.com/'''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
