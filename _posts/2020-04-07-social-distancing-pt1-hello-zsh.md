@@ -33,6 +33,6 @@ Having my [configuration][] backed up doesn&#8217;t hurt either.
 
 [^1]: It&#8217;s _licensed_ under the GPL Version 2, but the _program_ itself is now at version 3.2. That&#8217;s not confusing _at all_.
 
-[^2]: Feel free suppress this warning with `export BASH_SILENCE_DEPRECATION_WARNING=1`, but honestly, that feels like fighting the old war.
+[^2]: Feel free to suppress this warning with `export BASH_SILENCE_DEPRECATION_WARNING=1`, but honestly, that feels like fighting the old war.
 
 [^3]: Backblaze, BBEdit, Terminal, and Transmit get Full Disk Access to preempt an [avalanche](https://cdn.tyler.io/wp-content/uploads/2019/10/8DF8764D-61E2-49BC-8548-8A864EAF3F9F.jpeg) of security dialogs.
