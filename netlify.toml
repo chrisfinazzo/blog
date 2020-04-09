@@ -34,7 +34,7 @@ status = 404
     img-src 'self';
     manifest-src 'self';
     media-src 'self';
-    worker-src 'none';
+    worker-src 'self';
     report-uri https://5e8f35ad38707b8edb26c977.endpoint.csper.io; '''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
