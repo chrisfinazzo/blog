@@ -12,9 +12,9 @@ status = 301
 force = false
 # 404
 [[redirects]]
-    from = "*"
-    to = "/404"
-    status = 404
+from = "*"
+to = "/404"
+status = 404
 
 [[headers]]
   for = "/*"
@@ -22,14 +22,19 @@ force = false
   [headers.values]  
     Cache-Control = "no-transform"
     Content-Security-Policy-Report-Only = '''
-    style-src 'self';
     default-src 'self';
+    script-src 'self' 'report-sample';
+    style-src 'self' 'report-sample';
+    base-uri 'self';
     object-src 'none';
-    img-src https:;
-    script-src 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=';
-    'unsafe-inline';
-    frame-ancestors 'none';
-    report-uri https://chrisfinazzo.com/csp-report.json '''
+    connect-src 'self';
+    font-src 'self';
+    frame-src 'self';
+    img-src 'self';
+    manifest-src 'self';
+    media-src 'self';
+    worker-src 'none';
+    report-uri https://5e8f35ad38707b8edb26c977.endpoint.csper.io; '''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
