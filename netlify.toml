@@ -29,6 +29,7 @@ status = 404
     object-src 'none';
     connect-src 'self';
     font-src 'self';
+    form-action https://formspree.io/chris@chrisfinazzo.com;
     frame-src 'self' https://giphy.com;
     img-src 'self';
     manifest-src 'self';
