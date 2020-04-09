@@ -29,7 +29,7 @@ status = 404
     object-src 'none';
     connect-src 'self';
     font-src 'self';
-    frame-src 'self';
+    frame-src 'self' https://giphy.com;
     img-src 'self';
     manifest-src 'self';
     media-src 'self';
