@@ -23,15 +23,15 @@ status = 404
     Cache-Control = "no-transform"
     Content-Security-Policy-Report-Only = '''
     default-src 'self';
-    script-src 'self' 'report-sample';
-    style-src 'self' 'report-sample';
+    script-src 'self';
+    style-src 'self';
     base-uri 'self';
     object-src 'none';
     connect-src 'self';
     font-src 'self';
     form-action https://formspree.io/chris@chrisfinazzo.com;
     frame-src 'self' https://giphy.com;
-    img-src 'self';
+    img-src https:;
     manifest-src 'self';
     media-src 'self';
     worker-src 'self';
