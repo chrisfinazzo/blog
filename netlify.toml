@@ -23,8 +23,8 @@ status = 404
     Cache-Control = "no-transform"
     Content-Security-Policy-Report-Only = '''
     default-src 'self';
-    script-src 'self';
-    style-src 'self';
+    script-src 'report-sample' 'self';
+    style-src 'report-sample' 'self';
     base-uri 'self';
     object-src 'none';
     connect-src 'self';
