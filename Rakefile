@@ -19,7 +19,6 @@ File.open("_drafts/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: post")
       post.puts("title: ")
-      post.puts("tags: ")
       post.puts("---")
       post.puts
     end
