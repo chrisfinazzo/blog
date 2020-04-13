@@ -8,10 +8,13 @@
 {% include nav.html %}
 
 <main>
-<article>
-<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<p class="meta">{{ page.date | date: '%B %-d, %Y' }}</p>
+<article class="h-entry">
+<h1 class="p-name"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<p class="meta"><time class="dt-published">{{ page.date | date: '%B %-d, %Y' }}</time></p>
+<p class="e-content">
 {{ content }}
+</p>
+<a href="https://brid.gy/publish/twitter"></a>
 </article>
 </main>
 
