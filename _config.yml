@@ -31,17 +31,6 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-webmentions:
-username: chrisfinazzo.com
-# Use my own cache folder
-cache_folder: .cache
-# skip bad URLs for 5 days
-cache_bad_uris_for: 5
-
-collections:
- links:
-   output: true
-
 markdown:      kramdown
 markdown_ext:  markdown,md
 
