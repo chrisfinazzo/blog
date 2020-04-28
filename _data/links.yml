@@ -1,3 +1,8 @@
+- title: Dogbert Hovers
+  date: April 24, 2020
+  url: https://dilbert.com/strip/2020-04-24
+  content: Hell is other people's footsteps.
+
 - title: New York Needed Ventilators. So They Developed One in a Month
   date: April 20, 2020
   url: https://www.nytimes.com/2020/04/20/technology/new-york-ventilators-coronavirus.html
@@ -12,7 +17,7 @@
 - title: Little Things I Like to Do with Git
   date: March 7, 2019
   url: https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
-  content: Make more aliases, your hands will thank you. Because Git is really powerful, but also really verbose
+  content: Make more aliases, your hands will thank you. Because Git is really powerful, but also really verbose.
 
 - title: Invisible iOS Home Screen Icons
   date: March 7, 2019
