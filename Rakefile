@@ -43,3 +43,7 @@ end
 task :tags do
     sh 'git push origin --tags'
 end
+
+task :webmentions do
+    sh 'npx webmention https://chrisfinazzo.com/rss.xml --limit 1 --send'
+end
