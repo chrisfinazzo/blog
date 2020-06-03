@@ -1,0 +1,158 @@
+  - year: "2020"
+    books:
+      - title: "Coders: The Making of a New Tribe and the Remaking of the World"
+        author: Clive Thompson
+        link: https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/
+
+  - year: "2019"
+    books:
+      - title: "A Higher Loyalty: Truth, Lies, and Leadership"
+        author: James Comey
+        link: https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455/
+      
+      - title: "On the Brink: Inside the Race to Stop the Collapse of the Global Financial System"
+        author: Henry M. Paulson, Jr
+        link: https://www.amazon.com/Brink-Inside-Collapse-Global-Financial/dp/0446561932/
+      
+      - title: "All the Devils are Here: The Hidden History of the Financial Crisis"
+        author: Bethany McLean and Joe Nocera
+        link: https://www.amazon.com/All-Devils-Are-Here-Financial/dp/1591843634/
+      
+      - title: "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
+        author: J.D. Vance
+        link: https://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture/dp/0062300547/
+      
+      - title: "The Buy Side: A Wall Street Trader's Tale of Spectacular Excess"
+        author: Turney Duff
+        link: https://www.amazon.com/Buy-Side-Street-Traders-Spectacular/dp/077043715X/
+      
+      - title: "Fear: Trump in the White House"
+        author: Bob Woodward
+        link: https://www.amazon.com/Fear-Trump-White-Bob-Woodward/dp/1501175513/
+      
+      - title: "The Common Good"
+        author: Robert Reich
+        link: https://www.amazon.com/Common-Good-Robert-B-Reich/dp/052552049X/
+      
+      - title: "The Dark Web"
+        author: Geoff White and Bernard P. Achampong
+        link: https://www.audible.com/pd/The-Dark-Web-Audiobook/B076T8WJ5Q
+      
+      - title: "Losing the Signal: The Untold Story Behind the Extraordinary Rise and Spectacular Fall of BlackBerry"
+        author: Jacquie McNish and Sean Silcoff
+        link: https://www.amazon.com/Losing-Signal-Extraordinary-Spectacular-BlackBerry/dp/1250060176/
+      
+      - title: "What If?"
+        author: Randall Munroe
+        link: https://www.amazon.com/What-If-Scientific-Hypothetical-Questions/dp/0544272994/
+      
+      - title: "Why I Left Goldman Sachs: A Wall Street Story"
+        author: Greg Smith
+        link: https://www.amazon.com/Why-Left-Goldman-Sachs-Street/dp/1455527475/
+      
+      - title: "Kitchen Confidential: Adventures in the Culinary Underbelly"
+        author: Anthony Bourdain
+        link: https://www.amazon.com/Kitchen-Confidential-Adventures-Culinary-Underbelly/dp/158234082X/
+      
+      - title: "In Defense of a Liberal Education"
+        author: Fareed Zakaria
+        link: https://www.amazon.com/Defense-Liberal-Education-Fareed-Zakaria/dp/0393247686/
+      
+      - title: "It's Even Worse Than You Think: What the Trump Administration Is Doing to America"
+        author: David Cay Johnston
+        link: https://www.amazon.com/Even-Worse-Than-Think-Administration/dp/1501174169/
+      
+      - title: "21 Lessons for the 21st Century"
+        author: Yuval Noah Harari
+        link: https://www.amazon.com/Lessons-21st-Century-Yuval-Harari/dp/0525512179
+      
+      - title: "Thanks, Obama: My Hopey, Changey White House Years"
+        author: David Litt
+        link: https://www.amazon.com/Thanks-Obama-Hopey-Changey-White/dp/0062568450/
+      
+      - title: "Temp: How American Work, American Business, and the American Dream Became Temporary"
+        author: Louis Hyman
+        link: https://www.amazon.com/Temp-American-Business-Became-Temporary/dp/0735224072/
+      
+      - title: "Remote: Office Not Required"
+        author: Jason Fried and David Heinemeier Hansson
+        link: https://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0804137501/
+      
+      - title: "Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone"
+        author: Satya Nadella
+        link: https://www.amazon.com/Hit-Refresh-Rediscover-Microsofts-Everyone/dp/0062652508/
+
+      - title: "Astrophysics for People in a Hurry"
+        author: Neil deGrasse Tyson
+        link: https://www.amazon.com/gp/product/0393609391/
+
+      - title: "How the Internet Happened: From Netscape to the iPhone"
+        author: Brian McCullough
+        link: https://www.amazon.com/How-Internet-Happened-Netscape-iPhone/dp/1631493078/
+
+
+  - year: "2018"
+    books:
+      - title: "Young Money: Inside the Hidden World of Wall Street's Post-Crash Recruits"
+        author: Kevin Roose
+        link: https://www.amazon.com/Young-Money-Streets-Post-Crash-Recruits/dp/044658326X
+      
+      - title: "The Big Short: Inside the Doomsday Machine"
+        author: Michael Lewis
+        link: https://www.amazon.com/Big-Short-Inside-Doomsday-Machine/dp/0393072231
+
+      - title: "The New CSS Layout"
+        author: Rachel Andrew
+        link: https://abookapart.com/products/the-new-css-layout
+
+      - title: "Going Offline"
+        author: Jeremy Keith
+        link: https://abookapart.com/products/going-offline
+
+      - title: "Too Big to Fail: The Inside Story of How Wall Street and Washington Fought to Save the Financial System from Crisis - and Themselves"
+        author: Andrew Ross Sorkin
+        link: https://www.amazon.com/Too-Big-Fail-Washington-System/dp/0670021253
+
+      - title: "Accessibility for Everyone"
+        author: Laura Kalbag
+        link: https://abookapart.com/products/accessibility-for-everyone
+
+      - title: "Flash Boys: A Wall Street Revolt"
+        author: Michael Lewis
+        link: https://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393351599
+
+      - title: "Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader"
+        author: Brent Schlender and Rick Tetzeli
+        link: https://www.amazon.com/Becoming-Steve-Jobs-Evolution-Visionary/dp/0385347421
+
+      - title: "A Colossal Failure of Common Sense: The Inside Story of the Collapse of Lehman Brothers"
+        author: Lawrence G. McDonald
+        link: https://www.amazon.com/Colossal-Failure-Common-Sense-Collapse/dp/0307588335
+
+      - title: "Straight to Hell: True Tales of Deviance, Debauchery, and Billion-Dollar Deals"
+        author: John LeFevre
+        link: https://www.amazon.com/Straight-Hell-Deviance-Debauchery-Billion-Dollar/dp/0802123309
+
+      - title: "The Accidental Billionaires: The Founding of Facebook: A Tale of Sex, Money, Genius, and Betrayal"
+        author: Ben Mezrich
+        link: https://www.amazon.com/Accidental-Billionaires-Founding-Facebook-Betrayal/dp/0307740986
+
+      - title: "Steve Jobs"
+        author: Walter Isaacson
+        link: https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/
+
+      - title: "Into Thin Air: A Personal Account of the Mount Everest Disaster"
+        author: John Krakauer
+        link: https://www.amazon.com/Into-Thin-Air-Personal-Disaster/dp/0385494785
+
+      - title: "What Happened"
+        author: Hillary Clinton
+        link: https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564
+
+      - title: "The Fifth Risk"
+        author: Michael Lewis
+        link: https://www.amazon.com/The-Fifth-Risk/dp/B07GNTDQJQ
+
+      - title: "The Coming Storm"
+        author: Michael Lewis
+        link: https://www.amazon.com/The-Coming-Storm/dp/B07FHLQ2DD
