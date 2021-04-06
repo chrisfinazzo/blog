@@ -3,7 +3,7 @@ layout: default
 title: "Contact Me"
 ---
 If you are looking for a passionate, committed addition to your team, you've come to the right place. If you have a specific project in mind, please tell me about it. I look forward to working with you.
-<form action="https://formspree.io/chris@chrisfinazzo.com" method="POST">
+<form action="https://formspree.io/f/mqkwkbyq" method="POST">
 <label for="fname">First Name</label>
     <br />
     <input type="text" id="fname" name="firstname" placeholder="John">
