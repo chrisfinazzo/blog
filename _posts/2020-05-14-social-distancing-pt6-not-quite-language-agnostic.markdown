@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Social Distancing Part 6 - (Not Quite) Language-Agnostic Interfaces for Words & Code
+title: Social Distancing Part 6 - (Not Quite) Language-Agnostic Interfaces for Words and Code
 ---
 
 Inspired by Parker&#8217;s [post][] on the same subject, I decided to write my own now that it&#8217;s been up and running for a few days. I say &#8216;not quite&#8217; in the title because - as will become apparent - I only use a few languges to do most of the work.[^1] At the end of the process, I had entirely reorganized my Jekyll Scripts repository - now called [Rake Jekyll][] - from a series of shell scripts into a single Rakefile. I also migrated my Reverse Job Posting to use Rake. As I worked, it got me thinking about how I approached the same task in other projects. [^2]
