@@ -1,0 +1,42 @@
+#social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 0.15rem;
+    justify-items: center;
+    align-items: center;
+    list-style-type: none;
+  }
+
+.fab.fa-github {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.fab.fa-github {
+  color: hsl(0, 0%, 20%);
+}
+
+.fab.fa-linkedin {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.fab.fa-linkedin {
+  color: hsl(201, 100%, 35%);
+}
+
+.fab.fa-twitter {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.fab.fa-twitter {
+  color: hsl(203, 89%, 53%);
+}
+
+#rights {
+  grid-column: 2;
+  grid-row: 2;
+  white-space: nowrap;
+}
