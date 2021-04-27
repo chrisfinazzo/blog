@@ -31,6 +31,11 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:year/:month/:day/:title/
+
 markdown:      kramdown
 markdown_ext:  markdown,md
 
