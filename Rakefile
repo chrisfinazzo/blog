@@ -38,13 +38,9 @@ task :proof do
 end
 
 task :styles do
-    sh 'sass --sourcemap=none --watch scss:css'
+    sh 'sass --watch --style=compressed scss/style.scss:css/style.css'
 end
 
 task :tags do
     sh 'git push origin --tags'
-end
-
-task :webmentions do
-    sh 'npx webmention https://chrisfinazzo.com/rss.xml --limit 1 --send'
 end
