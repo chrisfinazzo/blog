@@ -9,29 +9,31 @@ I'm Chris Finazzo. A communications guy by day and web technology nerd by night 
 
 #### What hardware do you use?
 
-Since 2007, I have almost exclusively used Apple computers and iOS devices. My primary machine these days is a [2013 15" Retina MacBook Pro][]. It's mostly stock with the one exception being RAM (for obvious reasons). It's fair to say that having an SSD has changed my computing life in ways that I can't begin to describe. I still keep around the hard disk from a [Dell Latitude D610][] that I took to college for those rare instances when I need to need to do something with Windows.
+Since 2007, I have almost exclusively used Apple computers and iOS devices. My primary machine these days is a [2020 13" MacBook Pro][]. It's one of the 4 port USB-C models whose only customization was a 2 TB SSD.<sup id="fn1-colophon"><a href="#fn1-colophon">1</a></sup> I still keep around the hard disk from a [Dell Latitude D610][] that I took to college for those rare instances when I need to need to do something with Windows.
 
-[2013 15" Retina MacBook Pro]: http://en.wikipedia.org/wiki/MacBook_Pro#3rd_generation_.28Retina.29
+[2020 13" MacBook Pro]: http://en.wikipedia.org/wiki/MacBook_Pro#3rd_generation_.28Retina.29
 
 [Dell Latitude D610]: http://en.wikipedia.org/wiki/Dell_Latitude#Latitude_D610
 
-I carry an [iPhone 6][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop.
+I carry an [iPhone 11 Pro][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop.
 
-[iPhone 6]: http://en.wikipedia.org/wiki/IPhone_6
+[iPhone 11 Pro]: https://en.wikipedia.org/wiki/IPhone_11_Pro
 
 [iPad Air 2]: http://www.apple.com/ipad-air-2/
 
-Storage and backup is handled through Time Machine and a combination of external drives. Today, Western Digital drives fill this role as they have proven to be resilient over the years.
+Local backups are done through Time Machine and a Western Digital drive which is connected via USB. [Backblaze][] handles sending bits safely to the cloud.
 
-My current router is a [Linksys WRT 1900 AC][]. Although I try not to use it, any printing is done through a [HP OfficeJet 6700][] connected via Ethernet<sup id="fn1-colophon"><a href="#fn1-colophon">1</a></sup>  to the 1900AC.
+My current router is a [Linksys WRT 1900 AC][]. Although I try not to use it, any printing is done through a [HP OfficeJet Pro 9015][] connected via Wi-Fi to the 1900AC.
+
+[Backblaze]: https://www.backblaze.com
 
 [Linksys WRT 1900 AC]: https://www.linksys.com/us/p/P-WRT1900AC/
 
-[HP OfficeJet 6700]: http://www.shopping.hp.com/en_US/home-office/-/products/Printers/HP-Officejet/CN583A?HP-Officejet-6700-Premium-e-All-in-One-Printer-H711n
+[HP OfficeJet Pro 9015]: https://www.hp.com/us-en/shop/pdp/hp-officejet-pro-9015-all-in-one-printer
 
 #### And what software?
 
-To the extent that I can, all writing and coding is done in [BBEdit][]. I run this site using [Jekyll][] and a combination of other [scripts][], mostly written in [bash][]. [Homebrew][] is my package manager of choice. Just in case, I still keep around a version of Gruber's original [Markdown][] script for those times when I need to transform something on the fly. All of this work is versioned using [Git][].
+To the extent that I can, all writing and coding is done in [BBEdit][]. I run this site using [Jekyll][] and a combination of other [scripts][], written in [zsh][] inside a Rakefile. [Homebrew][] is my package manager of choice. Just in case, I still keep around a version of John's [Markdown][] script for those times when I need to transform something on the fly. All of this work is versioned using [Git][].
 
 [BBEdit]: http://www.barebones.com/products/bbedit/
 
@@ -39,7 +41,7 @@ To the extent that I can, all writing and coding is done in [BBEdit][]. I run th
 
 [scripts]: https://github.com/chrisfinazzo/jekyll-scripts
 
-[bash]: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+[zsh]: http://zsh.sourceforge.net
 
 [Homebrew]: http://brew.sh
 
@@ -47,17 +49,15 @@ To the extent that I can, all writing and coding is done in [BBEdit][]. I run th
 
 [Git]: http://git-scm.com
 
-I browse the web using [Safari][] and [Chrome][]. Over time, I have learned to practice [sane][] RSS usage.
+I browse the web using [Safari][], but keep [Firefox][] and [Chrome][] around for their excellent development tools.
 
 [Safari]: https://www.apple.com/safari/
 
+[Firefox]: https://www.mozilla.org/en-US/firefox/new/
+
 [Chrome]: https://www.google.com/intl/en/chrome/browser/
 
-[sane]: http://www.marco.org/2011/09/04/sane-rss-usage
-
-On iOS, most of my time is spent in [Instapaper][], Mail, [Reeder][], and a constantly changing selection of games.
-
-[Instapaper]: https://www.instapaper.com
+On iOS, if I'm not browsing the web, most of my time is spend in Mail, [Reeder][], and a constantly changing selection of games.
 
 [Reeder]: http://reederapp.com/ios/
 
@@ -72,7 +72,7 @@ I have so many complaints about the tools I use that it's [absurd][]. That said,
 <div class="footnotes">
   <ol>
     <li id="fn1-colophon">
-      <p>Kids, ask your parents about Ethernet.<a href="#fn1-colophon" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">↩</a></p>
+      <p>Juggling a large external drive for my music library was getting old, so I had to draw a line in the sand <i>somewhere</i> to spend a bit more money - this was it.<a href="#fn1-colophon" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">↩</a></p>
     </li>
   </ol>
 </div>
