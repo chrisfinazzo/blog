@@ -1,38 +1,64 @@
+  - year: "2021"
+    books:
+      - title: "Beginner's Mind"
+        author: Yo-Yo Ma
+        link: https://www.amazon.com/Beginners-Mind/dp/B08ZYRFRV4/
+      
+      - title: "Ten Lessons for a Post-Pandemic World"
+        author: Fareed Zakaria
+        link: https://openlibrary.org/works/OL21697536W/Ten_Lessons_for_a_Post-Pandemic_World?edition=
+      
+      - title: "Olive, Mabel and Me: Life and Adventures with Two Very Good Dogs"
+        author: Andrew Cotter
+        link: https://openlibrary.org/works/OL22272754W/Olive_Mabel_and_Me?edition=
+        
+      - title: "Human Errors: A Panorama of Our Glitches, from Pointless Bones to Broken Genes"
+        author: Nathan H. Lents
+        link: https://openlibrary.org/works/OL19745210W/Human_errors?edition=
+
   - year: "2020"
     books:
+      - title: "The Ones We've Been Waiting for: How a New Generation of Leaders Will Transform America"
+        author: Charlotte Alter
+        link: https://openlibrary.org/works/OL20647674W/The_Ones_We%27ve_Been_Waiting_for?edition=
+
       - title: "Coders: The Making of a New Tribe and the Remaking of the World"
         author: Clive Thompson
-        link: https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/
+        link: https://openlibrary.org/books/OL27341034M/Coders
+
+      - title: "Nut Jobs: Cracking California's Strangest $10 Million Dollar Heist"
+        author: Marc Fennell
+        link: https://www.amazon.com/Nut-Jobs-Cracking-Californias-Strangest/dp/B08DDKDZG5/
 
   - year: "2019"
     books:
       - title: "A Higher Loyalty: Truth, Lies, and Leadership"
         author: James Comey
-        link: https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455/
+        link: https://openlibrary.org/works/OL18146967W/A_Higher_Loyalty
       
       - title: "On the Brink: Inside the Race to Stop the Collapse of the Global Financial System"
         author: Henry M. Paulson, Jr
-        link: https://www.amazon.com/Brink-Inside-Collapse-Global-Financial/dp/0446561932/
+        link: https://openlibrary.org/works/OL22662692W/On_the_Brink
       
       - title: "All the Devils are Here: The Hidden History of the Financial Crisis"
         author: Bethany McLean and Joe Nocera
-        link: https://www.amazon.com/All-Devils-Are-Here-Financial/dp/1591843634/
+        link: https://openlibrary.org/works/OL15481389W/All_the_Devils_Are_Here
       
       - title: "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
         author: J.D. Vance
-        link: https://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture/dp/0062300547/
+        link: https://openlibrary.org/works/OL20047832W/Hillbilly_elegy
       
       - title: "The Buy Side: A Wall Street Trader's Tale of Spectacular Excess"
         author: Turney Duff
-        link: https://www.amazon.com/Buy-Side-Street-Traders-Spectacular/dp/077043715X/
+        link: https://openlibrary.org/works/OL19965080W/The_buy_side
       
       - title: "Fear: Trump in the White House"
         author: Bob Woodward
-        link: https://www.amazon.com/Fear-Trump-White-Bob-Woodward/dp/1501175513/
+        link: https://openlibrary.org/works/OL18147912W/Fear_Trump_in_the_White_House
       
       - title: "The Common Good"
         author: Robert Reich
-        link: https://www.amazon.com/Common-Good-Robert-B-Reich/dp/052552049X/
+        link: https://openlibrary.org/works/OL20097590W/The_Common_Good
       
       - title: "The Dark Web"
         author: Geoff White and Bernard P. Achampong
@@ -40,66 +66,66 @@
       
       - title: "Losing the Signal: The Untold Story Behind the Extraordinary Rise and Spectacular Fall of BlackBerry"
         author: Jacquie McNish and Sean Silcoff
-        link: https://www.amazon.com/Losing-Signal-Extraordinary-Spectacular-BlackBerry/dp/1250060176/
+        link: https://openlibrary.org/works/OL20005691W/Losing_the_signal
       
       - title: "What If?"
         author: Randall Munroe
-        link: https://www.amazon.com/What-If-Scientific-Hypothetical-Questions/dp/0544272994/
+        link: https://openlibrary.org/works/OL17725774W/What_if
       
       - title: "Why I Left Goldman Sachs: A Wall Street Story"
         author: Greg Smith
-        link: https://www.amazon.com/Why-Left-Goldman-Sachs-Street/dp/1455527475/
+        link: https://openlibrary.org/works/OL18168840W/Why_I_Left_Goldman_Sachs
       
       - title: "Kitchen Confidential: Adventures in the Culinary Underbelly"
         author: Anthony Bourdain
-        link: https://www.amazon.com/Kitchen-Confidential-Adventures-Culinary-Underbelly/dp/158234082X/
+        link: https://openlibrary.org/works/OL3348011W/Kitchen_Confidential?edition=kitchenconfident00bour
       
       - title: "In Defense of a Liberal Education"
         author: Fareed Zakaria
-        link: https://www.amazon.com/Defense-Liberal-Education-Fareed-Zakaria/dp/0393247686/
+        link: https://openlibrary.org/works/OL19352640W/In_Defense_of_a_Liberal_Education?edition=
       
       - title: "It's Even Worse Than You Think: What the Trump Administration Is Doing to America"
         author: David Cay Johnston
-        link: https://www.amazon.com/Even-Worse-Than-Think-Administration/dp/1501174169/
+        link: https://openlibrary.org/works/OL20153273W/It%27s_Even_Worse_Than_You_Think?edition=
       
       - title: "21 Lessons for the 21st Century"
         author: Yuval Noah Harari
-        link: https://www.amazon.com/Lessons-21st-Century-Yuval-Harari/dp/0525512179
+        link: https://openlibrary.org/works/OL18139190W/21_Lessons_for_the_21st_Century?edition=
       
       - title: "Thanks, Obama: My Hopey, Changey White House Years"
         author: David Litt
-        link: https://www.amazon.com/Thanks-Obama-Hopey-Changey-White/dp/0062568450/
+        link: https://openlibrary.org/works/OL19712889W/Thanks_Obama?edition=
       
       - title: "Temp: How American Work, American Business, and the American Dream Became Temporary"
         author: Louis Hyman
-        link: https://www.amazon.com/Temp-American-Business-Became-Temporary/dp/0735224072/
+        link: https://openlibrary.org/works/OL19750061W/Temp?edition=
       
       - title: "Remote: Office Not Required"
         author: Jason Fried and David Heinemeier Hansson
-        link: https://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0804137501/
+        link: https://openlibrary.org/works/OL19659482W/Remote_Office_Not_Required?edition=
       
       - title: "Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone"
         author: Satya Nadella
-        link: https://www.amazon.com/Hit-Refresh-Rediscover-Microsofts-Everyone/dp/0062652508/
+        link: https://openlibrary.org/works/OL17814342W/Hit_Refresh
 
       - title: "Astrophysics for People in a Hurry"
         author: Neil deGrasse Tyson
-        link: https://www.amazon.com/gp/product/0393609391/
+        link: https://openlibrary.org/works/OL17710047W/Astrophysics_for_People_in_a_Hurry?edition=
 
       - title: "How the Internet Happened: From Netscape to the iPhone"
         author: Brian McCullough
-        link: https://www.amazon.com/How-Internet-Happened-Netscape-iPhone/dp/1631493078/
+        link: https://openlibrary.org/works/OL19765004W/How_the_Internet_happened?edition=
 
 
   - year: "2018"
     books:
       - title: "Young Money: Inside the Hidden World of Wall Street's Post-Crash Recruits"
         author: Kevin Roose
-        link: https://www.amazon.com/Young-Money-Streets-Post-Crash-Recruits/dp/044658326X
+        link: https://openlibrary.org/works/OL16814567W/Young_money
       
       - title: "The Big Short: Inside the Doomsday Machine"
         author: Michael Lewis
-        link: https://www.amazon.com/Big-Short-Inside-Doomsday-Machine/dp/0393072231
+        link: https://openlibrary.org/works/OL15118378W/The_big_short?edition=bigshortinsidedo00lewi
 
       - title: "The New CSS Layout"
         author: Rachel Andrew
@@ -111,7 +137,7 @@
 
       - title: "Too Big to Fail: The Inside Story of How Wall Street and Washington Fought to Save the Financial System from Crisis - and Themselves"
         author: Andrew Ross Sorkin
-        link: https://www.amazon.com/Too-Big-Fail-Washington-System/dp/0670021253
+        link: https://openlibrary.org/works/OL15300574W/Too_big_to_fail
 
       - title: "Accessibility for Everyone"
         author: Laura Kalbag
@@ -119,39 +145,39 @@
 
       - title: "Flash Boys: A Wall Street Revolt"
         author: Michael Lewis
-        link: https://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393351599
+        link: https://openlibrary.org/works/OL19835779W/Flash_Boys_A_Wall_Street_Revolt?edition=
 
       - title: "Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader"
         author: Brent Schlender and Rick Tetzeli
-        link: https://www.amazon.com/Becoming-Steve-Jobs-Evolution-Visionary/dp/0385347421
+        link: https://openlibrary.org/works/OL17881333W/Becoming_Steve_Jobs?edition=
 
       - title: "A Colossal Failure of Common Sense: The Inside Story of the Collapse of Lehman Brothers"
         author: Lawrence G. McDonald
-        link: https://www.amazon.com/Colossal-Failure-Common-Sense-Collapse/dp/0307588335
+        link: https://openlibrary.org/works/OL13840033W/A_colossal_failure_of_common_sense?edition=colossalfailurec00mcdo
 
       - title: "Straight to Hell: True Tales of Deviance, Debauchery, and Billion-Dollar Deals"
         author: John LeFevre
-        link: https://www.amazon.com/Straight-Hell-Deviance-Debauchery-Billion-Dollar/dp/0802123309
+        link: https://openlibrary.org/works/OL19358938W/Straight_to_Hell_True_Tales_of_Deviance_Debauchery_and_Billion-Dollar_Deals?edition=
 
       - title: "The Accidental Billionaires: The Founding of Facebook: A Tale of Sex, Money, Genius, and Betrayal"
         author: Ben Mezrich
-        link: https://www.amazon.com/Accidental-Billionaires-Founding-Facebook-Betrayal/dp/0307740986
+        link: https://openlibrary.org/works/OL19369699W/The_Accidental_Billionaires_The_Founding_of_Facebook_A_Tale_of_Sex_Money_Genius_and_Betrayal?edition=
 
       - title: "Steve Jobs"
         author: Walter Isaacson
-        link: https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/
+        link: https://openlibrary.org/works/OL20366366W/Steve_Jobs_Steve_Jobs?edition=
 
       - title: "Into Thin Air: A Personal Account of the Mount Everest Disaster"
         author: John Krakauer
-        link: https://www.amazon.com/Into-Thin-Air-Personal-Disaster/dp/0385494785
+        link: https://openlibrary.org/works/OL1974548W/Into_Thin_Air?edition=intothinairperso0000krak_l1p6
 
       - title: "What Happened"
         author: Hillary Clinton
-        link: https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564
+        link: https://openlibrary.org/works/OL19727481W/What_happened?edition=
 
       - title: "The Fifth Risk"
         author: Michael Lewis
-        link: https://www.amazon.com/The-Fifth-Risk/dp/B07GNTDQJQ
+        link: https://openlibrary.org/works/OL20840001W/The_Fifth_Risk?edition=
 
       - title: "The Coming Storm"
         author: Michael Lewis
