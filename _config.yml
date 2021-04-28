@@ -4,7 +4,7 @@ source:      .
 destination: ./_site
 plugins_dir: ./_plugins
 layouts_dir: ./_layouts
-include:     [_headers, _redirects]
+include:     []
 exclude:     []
 keep_files:  ['.git','.svn']
 timezone:    America/New_York
@@ -35,6 +35,9 @@ collections:
   notes:
     output: true
     permalink: /notes/:year/:month/:day/:title/
+  links:
+    output: true
+    permalink: /links/:year/:month/:day/:title/
 
 markdown:      kramdown
 markdown_ext:  markdown,md
