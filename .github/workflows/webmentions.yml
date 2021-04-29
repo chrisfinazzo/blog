@@ -1,9 +1,5 @@
 name: Send webmentions
-on:
-  rss:
-    url: https://chrisfinazzo.com/rss.xml
-    config:
-      limit: 1
+on: [push]
 jobs:
   send_webmentions:
     name: Send webmentions
