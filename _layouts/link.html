@@ -1,13 +1,11 @@
 ---
 layout: default
-twitter-user:
-tweet-url:
+title: Links
 ---
 
 <article class="h-entry">
-<h1 class="p-name"><a class="u-url" href="{{ page.url }}">{{ page.title }}</a></h1>
+<h1 class="p-name"><a class="u-url" href="{{ page.external-url }}">{{ page.title }}</a></h1>
 <p class="meta"><time class="dt-published">{{ page.date | date: '%B %-d, %Y' }}</time></p>
-<p><a class="u-in-reply-to" href="{{ tweet-url }}">{{ twitter-user }}</a></p>
 <p class="e-content">
 {{ content }}
 <a href="https://brid.gy/publish/twitter?bridgy_omit_link=true"></a>
