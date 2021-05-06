@@ -25,6 +25,30 @@ File.open("_drafts/new.md", "w") do |post|
     sh 'bbedit _drafts/new.md'
 end
 
+task :link do
+
+File.open("_links/new.md", "w") do |post|
+      post.puts("---")
+      post.puts("layout: link")
+      post.puts("title: ")
+      post.puts("---")
+      post.puts
+    end
+    sh 'bbedit _links/new.md'
+end
+
+task :note do
+
+File.open("_notes/new.md", "w") do |post|
+      post.puts("---")
+      post.puts("layout: note")
+      post.puts("title: ")
+      post.puts("---")
+      post.puts
+    end
+    sh 'bbedit _notes/new.md'
+end
+
 task :reply do
 
 File.open("_notes/new.md", "w") do |post|
