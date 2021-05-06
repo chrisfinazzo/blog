@@ -17,7 +17,7 @@ layout: null
       <title>{{ note.title | xml_escape }}</title>
       <link>https://chrisfinazzo.com{{ note.url }}</link>
       <pubDate>{{ note.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>chris@chrisfinazzo.com</author>
+      <author>chris@chrisfinazzo.com (Chris Finazzo)</author>
       <guid>https://chrisfinazzo.com{{ note.id }}</guid>
       <description>{{ note.content | xml_escape }}</description>
     </item>
