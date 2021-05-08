@@ -1,0 +1,20 @@
+---
+layout: null
+---
+
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ site.title | xml_escape }}",
+    "home_page_url": "{{ "/" | absolute_url }}",
+    "feed_url": "{{ "/notes.json" | absolute_url }}",
+    "user_comment": "The notes feed, in JSON",
+    "items": [{% for note in site.notes %}
+        {
+            "id": "{{ note.url | absolute_url }}",
+            "url": "{{ note.url | absolute_url }}",
+            "title": {{ note.title | jsonify }},
+            "content_html": {{ note.content | jsonify }},
+            "date_published": "{{ note.date | date_to_xmlschema }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+}

@@ -7,7 +7,7 @@ layout: null
     <title>Chris Finazzo</title>
     <link>https://chrisfinazzo.com/</link>
     <atom:link href="https://chrisfinazzo.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Chris Finazzo</description>
+    <description>The RSS feed for chrisfinazzo.com</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
