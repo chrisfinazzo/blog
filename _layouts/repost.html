@@ -6,10 +6,10 @@ tweet-url:
 
 <article class="h-entry">
 <h1 class="p-name"><a class="u-url" href="{{ page.url }}">{{ page.title }}</a></h1>
-<p class="meta"><time class="dt-published">{{ page.date | date: '%B %-d, %Y' }}</time></p>
-<p><a class="u-repost-of" href="{{ tweet-url }}">{{ twitter-user }}</a></p>
-<p class="e-content">
+<div class="meta"><time datetime="{{ page.date | date: "%Y-%m-%d" }}" class="dt-published">{{ page.date | date: '%B %-d, %Y' }}</time></div>
+<div><a class="u-repost-of" href="{{ tweet-url }}">{{ twitter-user }}</a></div>
+<div class="e-content">
 {{ content }}
+</div>
 <a href="https://brid.gy/publish/twitter?bridgy_omit_link=true"></a>
-</p>
 </article>
