@@ -55,6 +55,8 @@ File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: reply-to")
       post.puts("title: ")
+      post.puts("twitter-user: ")
+      post.puts("tweet-url: ")
       post.puts("---")
       post.puts
     end
@@ -67,6 +69,8 @@ File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: repost-of")
       post.puts("title: ")
+      post.puts("twitter-user: ")
+      post.puts("tweet-url: ")
       post.puts("---")
       post.puts
     end
