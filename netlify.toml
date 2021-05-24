@@ -37,6 +37,7 @@ status = 404
     worker-src 'self';
     report-uri https://5e8f35ad38707b8edb26c977.endpoint.csper.io; '''
     Upgrade-Insecure-Requests = "1"
+    Referrer-Policy = "same-origin"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
