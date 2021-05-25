@@ -21,7 +21,7 @@ status = 404
 
   [headers.values]  
     Cache-Control = "no-transform"
-    Content-Security-Policy-Report-Only = '''
+    Content-Security-Policy = '''
     default-src 'none';
     script-src 'self';
     style-src 'self';
