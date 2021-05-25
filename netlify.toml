@@ -22,20 +22,19 @@ status = 404
   [headers.values]  
     Cache-Control = "no-transform"
     Content-Security-Policy-Report-Only = '''
-    default-src 'self';
-    script-src 'report-sample' 'self';
-    style-src 'report-sample' 'self';
+    default-src 'none';
+    script-src 'self';
+    style-src 'self';
     base-uri 'self';
     object-src 'none';
     connect-src 'self';
     font-src 'self';
-    form-action https://formspree.io/chris@chrisfinazzo.com;
-    frame-src 'self' https://giphy.com;
-    img-src https:;
+    form-action https://formspree.io/f/mqkwkbyq;
+    frame-src https://giphy.com;
+    img-src https: 'self' https://imgs.xkcd.com;
     manifest-src 'self';
     media-src 'self';
-    worker-src 'self';
-    report-uri https://5e8f35ad38707b8edb26c977.endpoint.csper.io; '''
+    worker-src 'self'; '''
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "same-origin"
     X-Content-Type-Options = "nosniff"
