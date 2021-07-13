@@ -1,5 +1,13 @@
   - year: "2021"
     books:
+      - title: "The Ten Year War: Obamacare and the Unfinished Crusade for Universal Coverage"
+        author: Jonathan Cohn
+        link: https://openlibrary.org/works/OL21914137W/Ten_Year_War
+      
+      - title: "Ok Boomer, Let's Talk: How My Generation Got Left Behind"
+        author: Jill Filipovic
+        link: https://openlibrary.org/books/OL29497058M/OK_Boomer_Let's_Talk
+      
       - title: "Beginner's Mind"
         author: Yo-Yo Ma
         link: https://www.amazon.com/Beginners-Mind/dp/B08ZYRFRV4/
