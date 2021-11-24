@@ -1,5 +1,9 @@
   - year: "2021"
     books:
+      - title: "A Promised Land"
+        author: Barack Obama
+        link: https://www.goodreads.com/book/show/55359704-a-promised-land
+        
       - title: "Becoming"
         author: Michelle Obama
         link: https://openlibrary.org/works/OL19756681W/Becoming?edition=
