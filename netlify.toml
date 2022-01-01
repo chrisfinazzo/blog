@@ -21,6 +21,7 @@ status = 404
 
   [headers.values]  
     Cache-Control = "no-transform"
+    Permissions-Policy = "interest-cohort=()"
     Content-Security-Policy = '''
     default-src 'none';
     script-src 'self';
