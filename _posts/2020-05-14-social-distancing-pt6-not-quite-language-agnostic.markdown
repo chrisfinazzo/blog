@@ -3,7 +3,7 @@ layout: post
 title: Social Distancing Part 6 - (Not Quite) Language-Agnostic Interfaces for Words and Code
 ---
 
-Inspired by Parker&#8217;s [post][] on the same subject, I decided to write my own now that it&#8217;s been up and running for a few days. I say &#8216;not quite&#8217; in the title because - as will become apparent - I only use a few languges to do most of the work.[^1] At the end of the process, I had entirely reorganized my Jekyll Scripts repository - now called [Rake Jekyll][] - from a series of shell scripts into a single Rakefile. I also migrated my Reverse Job Posting to use Rake. As I worked, it got me thinking about how I approached the same task in other projects. [^2]
+Inspired by Parker&#8217;s [post][] on the same subject, I decided to write my own now that it&#8217;s been up and running for a few days. I say &#8216;not quite&#8217; in the title because - as will become apparent - I only use a few languges to do most of the work.{% fn 1 %} At the end of the process, I had entirely reorganized my Jekyll Scripts repository - now called [Rake Jekyll][] - from a series of shell scripts into a single Rakefile. I also migrated my Reverse Job Posting to use Rake. As I worked, it got me thinking about how I approached the same task in other projects.{% fn 2 %}
 
 [post]: https://byparker.com/blog/2015/language-agnostic-interfaces-for-software-development/
 
@@ -31,7 +31,7 @@ My personal dictionary is pretty well customized and its mode support for TeX is
 
 ## Rake on the web
 
-Rakefiles are just containers for shell sequences - usually with a few modifications and are easy to stick together. For the blog, I can now run `rake draft` to create a draft post on the fly.[^3]
+Rakefiles are just containers for shell sequences - usually with a few modifications and are easy to stick together. For the blog, I can now run `rake draft` to create a draft post on the fly.{% fn 3 %}
 
 In RJP, the default task starts a web server so I can view the output. I tried to do the same thing for the blog, but invoking `bundle exec` in this way returned an error. So, for now this task triggers an incremental build which lands in the `_site` directory.
 
@@ -45,8 +45,14 @@ Well&#8230;maybe. After all, I wrote this post about it while using the tools to
 
 <hr />
 
-[^1]: For a while, the working title for this post was &#8216;Glue Code&#8217;, a not-so-subtle reference to the small pieces that do most of the heavy lifting for me.
-
-[^2]: Based on the idea of &#8216;Make, now with less typing&#8217; in [other](https://github.com/chrisfinazzo/resume/commit/1128992b3582fe60be9511354341d1e90d6c3d9e) projects.
-
-[^3]: If I was more versed in Regular Expression syntax, I could try to pass the title argument into the filename, but I havn&#8217;t gotten that far yet.
+{% footnotes %}
+   {% fnbody 1 %}
+      <p>For a while, the working title for this post was &#8216;Glue Code&#8217;, a not-so-subtle reference to the small pieces that do most of the heavy lifting for me.</p>
+   {% endfnbody %}
+   {% fnbody 2 %}
+      <p>Based on the idea of &#8216;Make, now with less typing&#8217; in other projects.</p>
+   {% endfnbody %}
+   {% fnbody 3 %}
+      <p>If I was more versed in Regular Expression syntax, I could try to pass the title argument into the filename, but I havn&#8217;t gotten that far yet.</p>
+   {% endfnbody %}
+{% endfootnotes %}

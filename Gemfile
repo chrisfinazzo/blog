@@ -16,7 +16,9 @@ gem "jekyll", "~> 4.2.1"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-commonmark", github: "jekyll/jekyll-commonmark"
   gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-footnotes", "~> 1.0.0"
   gem "jekyll-seo-tag", "~> 2.7.1"
   gem "jekyll-sitemap", "~> 1.4.0"
   gem "jekyll-webmention_io", "~> 3.3.6"

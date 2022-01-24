@@ -5,7 +5,7 @@ destination: ./_site
 plugins_dir: ./_plugins
 layouts_dir: ./_layouts
 include:     []
-exclude:     []
+exclude:     ['.jekyll-cache']
 keep_files:  ['.git','.svn']
 timezone:    America/New_York
 encoding:    utf-8
@@ -13,6 +13,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll/footnotes
+  - jekyll-commonmark
 
 future:      false
 show_drafts: false
@@ -40,7 +42,10 @@ collections:
     output: true
     permalink: /links/:year/:month/:day/:title/
 
-markdown:      kramdown
+markdown: CommonMark
+commonmark:
+  options: ["UNSAFE"]
+  extensions: ["strikethrough", "table"]
 markdown_ext:  markdown,md
 
 excerpt_separator: ""
