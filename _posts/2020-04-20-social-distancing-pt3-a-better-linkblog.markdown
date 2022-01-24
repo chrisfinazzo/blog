@@ -9,7 +9,7 @@ My first attempt at this idea involved using a link from within the text of a po
 
 Later on, I had a layout where the anchor containing the <code>page.title</code> variable pointed to the link destination, but this was not how the people I was reading built their sites, and more importantly, it was error prone. For a little while, I tried using Jekyll&#8217;s support for [collections][] to get the job done, but this turned out to be no better than juggling destination links and permalinks. Collections are really meant for similar, related items, but other than the fact that these were all links, that didn&#8217;t fit the bill.
 
-This brief trip through history brings me to today and what I hope is a better long term solution. Jekyll supports the [concept][] of a `_data` directory where you can define custom variables and data that can be accessed through Liquid templates. Now, I have a YAML{ fn 1 } file - naturally, it&#8217;s called links - that can simply be added to as I come across interesting things that I want to write about, but don&#8217;t merit a full post. Each time the site is updated, Jekyll reads the contents of this file and populates the Links page with its contents.
+This brief trip through history brings me to today and what I hope is a better long term solution. Jekyll supports the [concept][] of a `_data` directory where you can define custom variables and data that can be accessed through Liquid templates. Now, I have a YAML{% fn 1 %} file - naturally, it&#8217;s called links - that can simply be added to as I come across interesting things that I want to write about, but don&#8217;t merit a full post. Each time the site is updated, Jekyll reads the contents of this file and populates the Links page with its contents.
 
 <hr />
 
@@ -21,6 +21,6 @@ This brief trip through history brings me to today and what I hope is a better l
 
 {% footnotes %}
    {% fnbody 1 %}
-      <p>Other formats include JSON, CSV, and TSV</p>
+      <p>Other formats include JSON, CSV, and TSV.</p>
    {% endfnbody %}
 {% endfootnotes %}
