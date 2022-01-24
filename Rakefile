@@ -15,43 +15,43 @@ end
 
 task :post do
 
-File.open("_drafts/new.md", "w") do |post|
+File.open("_drafts/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: post")
       post.puts("title: ")
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _drafts/new.md'
+    sh 'bbedit _drafts/new.markdown'
 end
 
 task :link do
 
-File.open("_links/new.md", "w") do |post|
+File.open("_links/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: link")
       post.puts("title: ")
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _links/new.md'
+    sh 'bbedit _links/new.markdown'
 end
 
 task :note do
 
-File.open("_notes/new.md", "w") do |post|
+File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.md'
+    sh 'bbedit _notes/new.markdown'
 end
 
 task :reply do
 
-File.open("_notes/new.md", "w") do |post|
+File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: reply-to")
       post.puts("title: ")
@@ -60,12 +60,12 @@ File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.md'
+    sh 'bbedit _notes/new.markdown'
 end
 
 task :repost do
 
-File.open("_notes/new.md", "w") do |post|
+File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: repost-of")
       post.puts("title: ")
@@ -74,19 +74,19 @@ File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.md'
+    sh 'bbedit _notes/new.markdown'
 end
 
 task :tweet do
 
-File.open("_notes/new.md", "w") do |post|
+File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.md'
+    sh 'bbedit _notes/new.markdown'
 end
 
 task :github do
