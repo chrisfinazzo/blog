@@ -3,7 +3,7 @@ layout: default
 title: "Contact Me"
 ---
 If you are looking for a passionate, committed addition to your team, you've come to the right place. If you have a specific project in mind, please tell me about it. I look forward to working with you.
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" onSubmit="submit" method="POST" data-netlify="true">
 <label for="fname">First Name</label>
     <br />
     <input type="text" id="fname" name="firstname" placeholder="John">
@@ -24,5 +24,5 @@ If you are looking for a passionate, committed addition to your team, you've com
     <textarea id="message" name="message" placeholder=""></textarea>
     <br />
     <br />
-    <input type="submit" name="submit" value="Submit" style="">
+    <input type="submit" name="submit" value="Submit">
 </form>
