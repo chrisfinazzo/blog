@@ -16,7 +16,7 @@ If you are looking for a passionate, committed addition to your team, you've com
     <br />
     <label for="email">Email</label>
     <br />
-    <input type="text" id="email" name="_replyto" placeholder="john.smith@example.com">
+    <input type="text" id="email" name="email" placeholder="john.smith@example.com">
     <br />
     <br />
     <label for="message">Message</label>
