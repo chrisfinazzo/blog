@@ -30,7 +30,6 @@ status = 404
     object-src 'none';
     connect-src 'self';
     font-src 'self';
-    form-action https://formspree.io/f/mqkwkbyq;
     frame-src https://giphy.com;
     img-src https: 'self' https://imgs.xkcd.com;
     manifest-src 'self';
