@@ -1,5 +1,10 @@
   - year: "2022"
     books:
+      - title: "The Everything Store: Jeff Bezos and the Age of Amazon"
+        author: Brad Stone
+        link: https://openlibrary.org/books/OL25432651M/The_Everything_Store
+
+      
       - title: "Taste: My Life Through Food"
         author: Stanley Tucci
         link: https://openlibrary.org/works/OL24639172W/Taste
