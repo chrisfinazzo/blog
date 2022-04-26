@@ -42,6 +42,11 @@ collections:
     output: true
     permalink: /links/:year/:month/:day/:title/
 
+webmentions:
+  syndication:
+    twitter:
+      endpoint: https://brid.gy/publish/twitter
+
 markdown: CommonMark
 commonmark:
   options: ["UNSAFE"]

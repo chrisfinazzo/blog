@@ -1,2 +1,5 @@
 {% include social.html %}
 {% include rights.html %}
+{% for target in page.syndicate_to %}
+  <a href="{{ site.webmentions.syndication[target].endpoint }}"></a>
+{% endfor %}
