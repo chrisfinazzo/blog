@@ -1,4 +1,5 @@
 _site
 .jekyll-metadata
 .jekyll-cache
-webmention.sh
+*.env
+node_modules
