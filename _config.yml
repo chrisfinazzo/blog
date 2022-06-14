@@ -34,6 +34,11 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+webmentions:
+  syndication:
+    twitter:
+      endpoint: https://brid.gy/publish/twitter
+
 collections:
   notes:
     output: true
@@ -41,11 +46,16 @@ collections:
   links:
     output: true
     permalink: /links/:year/:month/:day/:title/
-
-webmentions:
-  syndication:
-    twitter:
-      endpoint: https://brid.gy/publish/twitter
+defaults:
+-
+  scope:
+    path: ""
+    type: "notes"
+  values:
+    layout: "note"
+    title: ""
+    permalink: "/:collection/:title/"
+    post_type: "Note"
 
 markdown: CommonMark
 commonmark:
