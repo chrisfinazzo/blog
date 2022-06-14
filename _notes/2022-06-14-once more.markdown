@@ -1,0 +1,5 @@
+---
+layout: note
+syndicate_to: [ twitter ]
+---
+Trying again...
