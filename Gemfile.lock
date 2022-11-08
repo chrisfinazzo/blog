@@ -1,19 +1,4 @@
 GIT
-  remote: https://github.com/fancypantalons/jekyll-webmention_io.git
-  revision: 79dafb8c676d2484fd0abf3717a09c0c6ee2ebb7
-  branch: syndication
-  specs:
-    jekyll-webmention_io (3.3.5)
-      htmlbeautifier (~> 1.1)
-      jekyll (>= 3.2.0, < 4.0)
-      json (~> 2.0)
-      jsonpath (~> 1.0.1)
-      openssl (~> 2.0)
-      string_inflection (~> 0.1)
-      uglifier (~> 4.1)
-      webmention (~> 0.1.6)
-
-GIT
   remote: https://github.com/jekyll/jekyll-commonmark.git
   revision: ba12585e3157e405151ae7f4719f58a00ca827a2
   specs:
@@ -32,16 +17,11 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    execjs (2.8.1)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    htmlbeautifier (1.4.2)
     http_parser.rb (0.8.0)
-    httparty (0.15.7)
-      multi_xml (>= 0.5.2)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    ipaddr (1.2.4)
     jekyll (3.9.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -66,29 +46,16 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.6.2)
-    jsonpath (1.0.7)
-      multi_json
     kramdown (2.4.0)
       rexml
-    link_header (0.0.8)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.8.0)
-    multi_json (1.15.0)
-    multi_xml (0.6.0)
-    nokogiri (1.13.6)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
-    openssl (2.2.1)
-      ipaddr
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    racc (1.6.0)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -100,14 +67,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    string_inflection (0.1.2)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
-    webmention (0.1.6)
-      httparty (~> 0.15.5)
-      json
-      link_header (~> 0.0.8)
-      nokogiri
 
 PLATFORMS
   ruby
@@ -119,7 +78,6 @@ DEPENDENCIES
   jekyll-footnotes (~> 1.0.0)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-sitemap (~> 1.4.0)
-  jekyll-webmention_io!
 
 BUNDLED WITH
    2.1.2

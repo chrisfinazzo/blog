@@ -17,7 +17,7 @@ gem "jekyll", "~> 3.9.2"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-commonmark", github: "jekyll/jekyll-commonmark"
-  gem 'jekyll-webmention_io', git: 'https://github.com/fancypantalons/jekyll-webmention_io.git', branch: 'syndication'
+#   gem 'jekyll-webmention_io', git: 'https://github.com/fancypantalons/jekyll-webmention_io.git', branch: 'syndication'
   gem "jekyll-feed", "~> 0.15.1"
   gem "jekyll-footnotes", "~> 1.0.0"
   gem "jekyll-seo-tag", "~> 2.7.1"
