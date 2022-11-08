@@ -1,9 +1,28 @@
   - year: "2022"
     books:
+      - title: "Liar's Poker: Rising Through the Wreckage on Wall Street"
+        author: Michael Lewis
+        link: https://openlibrary.org/works/OL21803278W/Liar%27s_Poker
+
+      - title: "Power to the Public: The Promise of Public Interest Technology"
+        author: Tara Dawson McGuinness and Hana Schank
+        link: https://openlibrary.org/books/OL31836422M/Power_to_the_Public
+
+      - title: "Money: The True Story of a Made-Up Thing"
+        author: Jacob Goldstein
+        link: https://openlibrary.org/works/OL21891694W/Money
+
+      - title: "Facebook: The Inside Story"
+        author: Steven Levy
+        link: https://openlibrary.org/works/OL20653261W/Facebook
+      
+      - title: "Creative Selection: Inside Apple's Design Process During the Golden Age of Steve Jobs"
+        author: Ken Kocienda
+        link: https://openlibrary.org/works/OL19754856W/Creative_selection
+              
       - title: "The Everything Store: Jeff Bezos and the Age of Amazon"
         author: Brad Stone
         link: https://openlibrary.org/books/OL25432651M/The_Everything_Store
-
       
       - title: "Taste: My Life Through Food"
         author: Stanley Tucci
