@@ -16,6 +16,14 @@ from = "*"
 to = "/404"
 status = 404
 
+[[plugins]]
+  package = "netlify-plugin-webmentions"
+  
+  [plugins.inputs]
+    baseUrl = "https://chrisfinazzo.com"
+    feedPath = "/notes-rss.xml"
+    limit = 1
+
 [[headers]]
   for = "/*"
 

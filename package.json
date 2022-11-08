@@ -1,35 +1,30 @@
 {
-  "name": "chrisfinazzo-blog",
+  "name": "blog",
   "version": "1.0.0",
-  "keywords": [
-    "indiekit",
-    "indieweb",
-    "jekyll"
-  ],
-  "homepage": "https://chrisfinazzo.com",
-  "engines": {
-    "node": "16.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chrisfinazzo/blog.git"
-  },
-  "author": "Chris Finazzo",
-  "description": "The Indiekit server for my website",
-  "main": "index.js",
-  "type": "module",
+  "description": "My blog",
+  "main": "sw.js",
   "dependencies": {
-    "@indiekit/indiekit": "^0.3.0",
-    "@indiekit/preset-jekyll": "^0.1.2",
-    "@indiekit/store-github": "^0.1.4",
-    "@indiekit/syndicator-mastodon": "^0.3.0",
-    "@indiekit/syndicator-twitter": "^0.3.0",
-    "dotenv": "^16.0.0",
-    "yaml": "^1.10.2"
+    "markdown-it": "^13.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "netlify-plugin-webmentions": "^1.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisfinazzo/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "indieweb",
+    "jekyll"
+  ],
+  "author": "Chris Finazzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisfinazzo/blog/issues"
+  },
+  "homepage": "https://github.com/chrisfinazzo/blog#readme"
 }
