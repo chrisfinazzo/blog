@@ -1,4 +1,0 @@
----
-layout: note
----
-This is a test - a note without a title looks like this.
