@@ -15,6 +15,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/footnotes
   - jekyll-commonmark
+  - jekyll-webmention_io
 
 future:      false
 show_drafts: false
@@ -36,6 +37,8 @@ pagination:
 
 webmentions:
   syndication:
+    mastodon:
+      endpoint: https://brid.gy/publish/mastodon
     twitter:
       endpoint: https://brid.gy/publish/twitter
 
@@ -76,5 +79,7 @@ github:
     url: https://github.com/chrisfinazzo
 linkedin:
     url: https://linkedin.com/in/chrisfinazzo
+mastodon:
+    url: https://mastodon.social/@chrisfinazzo
 twitter:
     url: https://twitter.com/chrisfinazzo
