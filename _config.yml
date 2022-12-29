@@ -15,7 +15,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/footnotes
   - jekyll-commonmark
-  - jekyll-webmention_io
+#   - jekyll-webmention_io
 
 future:      false
 show_drafts: false
