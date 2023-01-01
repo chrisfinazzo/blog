@@ -15,9 +15,9 @@ Since 2007, I have almost exclusively used Apple computers and devices. My prima
 
 [Dell Latitude D610]: http://en.wikipedia.org/wiki/Dell_Latitude#Latitude_D610
 
-I carry an [iPhone 11 Pro][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop. After using a Fitbit for a few years, I traded up to an [Apple Watch SE][] in December 2020.
+I carry an [iPhone 14 Pro][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop. After using a Fitbit for a few years, I traded up to an [Apple Watch SE][] in December 2020.
 
-[iPhone 11 Pro]: https://en.wikipedia.org/wiki/IPhone_11_Pro
+[iPhone 14 Pro]: https://en.wikipedia.org/wiki/IPhone_14_Pro
 
 [iPad Air 2]: http://www.apple.com/ipad-air-2/
 
