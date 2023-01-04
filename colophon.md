@@ -37,7 +37,7 @@ My current router is a [Linksys WRT 1900 AC][]. Although I try not to use them, 
 
 #### And what software?
 
-To the extent that I can, all writing and coding is done in [BBEdit][]. I run this site using [Jekyll][] and a combination of other [scripts][], written in [zsh][] inside a Rakefile. For most things, [Homebrew][] is my package manager of choice. The lone exception is if I am working on a [Standard Ebooks][] project, which uses Python for its toolset. This particular set of scripts is accessed via a virtual environment managed by [Miniconda][].<sup id="fn3-colophon"><a href="#fn3-colophon">3</a></sup>
+To the extent that I can, all writing and coding is done in [BBEdit][]. I run this site using [Jekyll][] and a combination of other [scripts][], written in [zsh][] inside a Rakefile. For most things, [Homebrew][] is my package manager of choice. The lone exception is if I am working on a [Standard Ebooks][] project, which uses Python for its toolset. This particular set of scripts is accessed via a virtual environment managed by [PIPX][].<sup id="fn3-colophon"><a href="#fn3-colophon">3</a></sup>
 
 Just in case, I still keep around a version of John's [Markdown][] script for those times when I need to transform something on the fly. All of this work is versioned using [Git][].
 
@@ -53,7 +53,7 @@ Just in case, I still keep around a version of John's [Markdown][] script for th
 
 [Standard Ebooks]: https://standardebooks.org
 
-[Miniconda]: https://docs.conda.io/en/latest/miniconda.html
+[PIPX]: https://github.com/pypa/pipx
 
 [Markdown]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
 
