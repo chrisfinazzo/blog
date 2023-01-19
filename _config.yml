@@ -57,7 +57,7 @@ defaults:
   values:
     layout: "note"
     title: ""
-    permalink: "/:collection/:title/"
+    permalink: "/:collection/:year/:month/:day/:title/"
     post_type: "Note"
 
 markdown: CommonMark
