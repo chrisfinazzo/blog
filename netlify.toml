@@ -30,19 +30,19 @@ status = 404
   [headers.values]  
     Cache-Control = "no-transform"
     Permissions-Policy = "interest-cohort=()"
-#     Content-Security-Policy = '''
-#     default-src 'none';
-#     script-src 'self';
-#     style-src 'self';
-#     base-uri 'self';
-#     object-src 'none';
-#     connect-src 'self';
-#     font-src 'self';
-#     frame-src https://giphy.com;
-#     img-src https: 'self' https://imgs.xkcd.com;
-#     manifest-src 'self';
-#     media-src 'self';
-#     worker-src 'self'; '''
+    Content-Security-Policy-Report-Only = '''
+    default-src 'none';
+    script-src 'self';
+    style-src 'self';
+    base-uri 'self';
+    object-src 'none';
+    connect-src 'self';
+    font-src 'self';
+    frame-src https://giphy.com;
+    img-src https: 'self' https://imgs.xkcd.com;
+    manifest-src 'self';
+    media-src 'self';
+    worker-src 'self'; '''
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "same-origin"
     X-Content-Type-Options = "nosniff"
