@@ -36,6 +36,8 @@ pagination:
   sort_reverse: true
 
 webmentions:
+  collections:
+    - notes
   syndication:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
