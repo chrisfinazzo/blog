@@ -16,7 +16,8 @@ addEventListener('install', installEvent => {
            '/css/style.css',
            '/colophon/index.html',
            '/contact/index.html',
-           '/links/index.html'
+           '/links/index.html',
+           '/notes/index.html'
          ]);
        })
      );
