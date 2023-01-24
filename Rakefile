@@ -2,7 +2,7 @@
 task default: [:build]
 
 task :build do
-    sh 'bundle exec jekyll build --incremental'
+    sh 'bundle exec jekyll build --incremental && bundle exec jekyll webmention'
 end
 
 task :deploy do
