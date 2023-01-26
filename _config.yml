@@ -16,6 +16,7 @@ plugins:
   - jekyll/footnotes
   - jekyll-commonmark
   - jekyll-webmention_io
+  - jemoji
 
 future:      false
 show_drafts: false
