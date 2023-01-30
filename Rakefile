@@ -31,6 +31,7 @@ File.open("_links/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: link")
       post.puts("title: ")
+      post.puts("syndicate_to: [ mastodon ]")
       post.puts("---")
       post.puts
     end
@@ -43,6 +44,7 @@ File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
+      post.puts("syndicate_to: [ mastodon ]")
       post.puts("---")
       post.puts
     end
@@ -53,10 +55,11 @@ task :reply do
 
 File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
-      post.puts("layout: reply-to")
+      post.puts("layout: note")
       post.puts("title: ")
-      post.puts("twitter-user: ")
-      post.puts("tweet-url: ")
+      post.puts("syndicate_to: [ mastodon ]")
+      post.puts("user: ")
+      post.puts("post-url: ")
       post.puts("---")
       post.puts
     end
@@ -67,22 +70,11 @@ task :repost do
 
 File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
-      post.puts("layout: repost-of")
-      post.puts("title: ")
-      post.puts("twitter-user: ")
-      post.puts("tweet-url: ")
-      post.puts("---")
-      post.puts
-    end
-    sh 'bbedit _notes/new.markdown'
-end
-
-task :tweet do
-
-File.open("_notes/new.markdown", "w") do |post|
-      post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
+      post.puts("syndicate_to: [ mastodon ]")
+      post.puts("user: ")
+      post.puts("post-url: ")
       post.puts("---")
       post.puts
     end
