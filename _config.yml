@@ -42,8 +42,6 @@ webmentions:
   syndication:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
-    twitter:
-      endpoint: https://brid.gy/publish/twitter
 
 collections:
   notes:
@@ -84,5 +82,3 @@ linkedin:
     url: https://linkedin.com/in/chrisfinazzo
 mastodon:
     url: https://mastodon.social/@chrisfinazzo
-twitter:
-    url: https://twitter.com/chrisfinazzo
