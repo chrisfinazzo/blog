@@ -27,7 +27,7 @@ end
 
 task :link do
 
-File.open("_links/new.markdown", "w") do |post|
+File.open("_links/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: link")
       post.puts("title: ")
@@ -35,12 +35,12 @@ File.open("_links/new.markdown", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _links/new.markdown'
+    sh 'bbedit _links/new.md'
 end
 
 task :note do
 
-File.open("_notes/new.markdown", "w") do |post|
+File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
@@ -48,12 +48,12 @@ File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.markdown'
+    sh 'bbedit _notes/new.md'
 end
 
 task :reply do
 
-File.open("_notes/new.markdown", "w") do |post|
+File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
@@ -63,12 +63,12 @@ File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.markdown'
+    sh 'bbedit _notes/new.md'
 end
 
 task :repost do
 
-File.open("_notes/new.markdown", "w") do |post|
+File.open("_notes/new.md", "w") do |post|
       post.puts("---")
       post.puts("layout: note")
       post.puts("title: ")
@@ -78,7 +78,7 @@ File.open("_notes/new.markdown", "w") do |post|
       post.puts("---")
       post.puts
     end
-    sh 'bbedit _notes/new.markdown'
+    sh 'bbedit _notes/new.md'
 end
 
 task :github do
