@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/fancypantalons/jekyll-webmention_io.git
-  revision: b68f0e99fca7a91e2f9ccc22df114bd4388b368a
-  branch: dev
+  remote: https://github.com/aarongustafson/jekyll-webmention_io.git
+  revision: 30a733f399dd5a377dc44bfa6d0d29fe0308bbe9
+  branch: main
   specs:
-    jekyll-webmention_io (3.3.6)
+    jekyll-webmention_io (3.3.7)
       htmlbeautifier (~> 1.1)
       jekyll (>= 3.2.0, < 5.0)
       json (~> 2.0)
