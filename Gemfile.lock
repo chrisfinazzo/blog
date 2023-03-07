@@ -1,19 +1,4 @@
 GIT
-  remote: https://github.com/aarongustafson/jekyll-webmention_io.git
-  revision: 30a733f399dd5a377dc44bfa6d0d29fe0308bbe9
-  branch: main
-  specs:
-    jekyll-webmention_io (3.3.7)
-      htmlbeautifier (~> 1.1)
-      jekyll (>= 3.2.0, < 5.0)
-      json (~> 2.0)
-      jsonpath (~> 1.0.1)
-      openssl (>= 2.0, < 4.0)
-      string_inflection (~> 0.1)
-      uglifier (~> 4.1)
-      webmention (~> 7.0)
-
-GIT
   remote: https://github.com/jekyll/jekyll-commonmark.git
   revision: ba12585e3157e405151ae7f4719f58a00ca827a2
   specs:
@@ -90,13 +75,19 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-webmention_io (3.3.7)
+      htmlbeautifier (~> 1.1)
+      jekyll (>= 3.2.0, < 5.0)
+      json (~> 2.0)
+      openssl (>= 2.0, < 4.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 4.1)
+      webmention (~> 7.0)
     jemoji (0.13.0)
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.6.3)
-    jsonpath (1.0.7)
-      multi_json
     kramdown (2.4.0)
       rexml
     link-header-parser (5.0.0)
@@ -110,7 +101,6 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.8.1)
     minitest (5.17.0)
-    multi_json (1.15.0)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -156,7 +146,7 @@ DEPENDENCIES
   jekyll-footnotes (~> 1.0.0)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-sitemap (~> 1.4.0)
-  jekyll-webmention_io!
+  jekyll-webmention_io (~> 3.3.7)
   jemoji (~> 0.13.0)
 
 BUNDLED WITH
