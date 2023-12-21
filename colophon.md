@@ -15,13 +15,15 @@ Since 2007, I have almost exclusively used Apple computers and devices. My prima
 
 [Dell Latitude D610]: http://en.wikipedia.org/wiki/Dell_Latitude#Latitude_D610
 
-I carry an [iPhone 14 Pro][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop. After using a Fitbit for a few years, I traded up to an [Apple Watch SE][] in December 2020.
+I carry an [iPhone 14 Pro][] with me wherever I go. An [iPad Air 2][] fulfills my browsing and reading needs when I'm away from the laptop. After a few years with an [Apple Watch SE][], I traded up to the [Series 9][] in December 2023.
 
 [iPhone 14 Pro]: https://en.wikipedia.org/wiki/IPhone_14_Pro
 
 [iPad Air 2]: http://www.apple.com/ipad-air-2/
 
-[Apple Watch SE]: https://www.apple.com/apple-watch-se/
+[Apple Watch SE]: https://en.wikipedia.org/wiki/Apple_Watch#Fifth_generation_(Series_5_and_SE_(1st_generation))
+
+[Series 9]: https://www.apple.com/apple-watch-series-9/
 
 Local backups are done through Time Machine and a Western Digital drive which is connected via USB. [Backblaze][] handles sending bits safely to the cloud.
 
