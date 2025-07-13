@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.2"
+gem "jekyll", "~> 4.4.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -16,8 +16,6 @@ gem "jekyll", "~> 3.9.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-commonmark", github: "jekyll/jekyll-commonmark"
-  gem "jekyll-webmention_io", "~> 3.3.7"
   gem "jekyll-feed", "~> 0.15.1"
   gem "jemoji", "~> 0.13.0"
   gem "jekyll-footnotes", "~> 1.0.0"
