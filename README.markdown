@@ -1,3 +1,7 @@
-## CF-Stage
+## Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/20267ef8-c49d-4fe7-9987-ea306fd513c0/deploy-status)](https://app.netlify.com/projects/cf-stage/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2d80e03-1d09-445a-a4fd-3e33f65baa3d/deploy-status)](https://app.netlify.com/projects/deluxe-fudge-f49375/deploys)
+
+My personal website, built with [Jekyll][].
+
+[Jekyll]: https://jekyllrb.com
