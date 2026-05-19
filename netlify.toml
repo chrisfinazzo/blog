@@ -1,0 +1,28 @@
+# WWW
+[[redirects]]
+from = "/www.chrisfinazzo.com"
+to = "/chrisfinazzo.com"
+status = 301
+force = false
+# Netlify
+[[redirects]]
+from = "https://relaxed-meninsky-6eca95.netlify.com/*"
+to = "https://chrisfinazzo.com/"
+status = 301
+force = false
+# 404
+[[redirects]]
+from = "*"
+to = "/404"
+status = 404
+
+[[headers]]
+  for = "/*"
+  [headers.values]  
+    Cache-Control = "no-transform"
+    Permissions-Policy = "interest-cohort=()"
+    Upgrade-Insecure-Requests = "1"
+    Referrer-Policy = "same-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
